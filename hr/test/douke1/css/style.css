@@ -1,0 +1,337 @@
+body {
+  background: #fffff9 !important;
+  margin: 0; }
+
+.header {
+  margin: 0 auto 0 auto;
+  height: 60px;
+  background: #f6f6f1;
+  border-bottom: 1px solid #e6e6e3; }
+
+.header .top {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto 0 auto; }
+  .header .top .logo {
+    width: 106px;
+    height: 33px;
+    float: left;
+    margin-top: 14px; }
+  .header .top .search {
+    width: 248px;
+    height: 27px;
+    float: left;
+    margin-top: 21px;
+    margin-left: 114px;
+    background: url(../image/search_outline.png) no-repeat; }
+    .header .top .search .search_input {
+      width: 208px;
+      height: 24px;
+      margin-left: 11px;
+      margin-top: 1px;
+      border: none;
+      text-align: left;
+      font-size: 14px;
+      color: #7c5753;
+      float: left;
+      line-height: 24px;
+      display: block;
+      background-color: transparent; }
+      .header .top .search .search_input::-webkit-input-placeholder {
+        color: #7c5753; }
+      .header .top .search .search_input:-moz-placeholder {
+        color: #7c5753; }
+      .header .top .search .search_input::-moz-placeholder {
+        color: #7c5753; }
+      .header .top .search .search_input:-ms-input-placeholder {
+        color: #7c5753; }
+    .header .top .search .search_button {
+      width: 18px;
+      height: 18px;
+      float: left;
+      cursor: pointer;
+      border: none;
+      background-image: url(../image/search_icon.png);
+      background-color: transparent;
+      margin-top: 4px; }
+  .header .top .free_print {
+    background-image: url(../image/free_print.png);
+    width: 76px;
+    height: 21px;
+    float: right;
+    margin-top: 21px;
+    margin-right: 79px;
+    text-align: center; }
+    .header .top .free_print:hover {
+      background-image: url(../image/free_print_hover.png); }
+    .header .top .free_print a, .header .top .free_print .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .header .top .free_print .index {
+      font-size: 12px;
+      color: #6f5350;
+      height: 21px;
+      line-height: 21px;
+      text-decoration: none;
+      display: block; }
+      .header .top .free_print a:hover, .header .top .free_print .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .header .top .free_print .index:hover {
+        color: white; }
+  .header .top .upload_file {
+    background-image: url(../image/free_print.png);
+    width: 76px;
+    height: 21px;
+    float: right;
+    margin-top: 21px;
+    margin-right: 50px;
+    text-align: center; }
+    .header .top .upload_file:hover {
+      background-image: url(../image/free_print_hover.png); }
+    .header .top .upload_file a, .header .top .upload_file .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .header .top .upload_file .index {
+      font-size: 12px;
+      color: #6f5350;
+      height: 21px;
+      line-height: 21px;
+      text-decoration: none;
+      display: block; }
+      .header .top .upload_file a:hover, .header .top .upload_file .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .header .top .upload_file .index:hover {
+        color: white; }
+
+.topbar-down {
+  background: #f6f6f1;
+  height: 30px;
+  margin: 0 auto 0 auto; }
+  .topbar-down .topbar-middle {
+    width: 980px;
+    margin: 0 auto 0 auto;
+    height: 30px; }
+    .topbar-down .topbar-middle a, .topbar-down .topbar-middle .index {
+      font-size: 14px;
+      display: inline-block;
+      margin-top: 7px;
+      margin-left: 140px;
+      color: #6f5350;
+      width: 51px;
+      height: 18px;
+      line-height: 18px;
+      text-align: center; }
+      .topbar-down .topbar-middle a:hover, .topbar-down .topbar-middle .index:hover {
+        background-color: #afafa8;
+        color: white; }
+    .topbar-down .topbar-middle .index {
+      margin-left: 40px;
+      width: 35px; }
+    .topbar-down .topbar-middle .left {
+      float: right;
+      width: 64px; }
+      .topbar-down .topbar-middle .left a, .topbar-down .topbar-middle .left .index {
+        font-size: 12px;
+        margin-left: 1px;
+        width: 25px; }
+        .topbar-down .topbar-middle .left a:hover, .topbar-down .topbar-middle .left .index:hover {
+          background-color: transparent;
+          color: #868686; }
+
+.slides, .fenlei, .fenlei .line, .wendang, .wendang .line {
+  width: 980px;
+  height: 290px;
+  margin: 0 auto 0 auto;
+  margin-top: 34px; }
+
+.fenlei {
+  height: 244px; }
+  .fenlei .line {
+    height: 25px;
+    margin-top: 0px;
+    border-bottom: 1px solid #c4c4ba; }
+    .fenlei .line h2 {
+      float: left;
+      font-size: 18px;
+      margin-left: 10px;
+      color: #3d3d3d; }
+    .fenlei .line .more {
+      float: right;
+      color: #836560;
+      margin-top: 7px; }
+      .fenlei .line .more:hover {
+        text-decoration: underline; }
+  .fenlei ul {
+    height: 190px;
+    margin-top: 30px; }
+    .fenlei ul li, .fenlei ul .index, .fenlei ul .last, .fenlei .public_middle1 .public_record ul .header, .public_middle1 .public_record .fenlei ul .header, .fenlei .public_middle1 .public_record2 ul .header, .public_middle1 .public_record2 .fenlei ul .header, .fenlei .public_middle1 .public_record ul .last, .public_middle1 .public_record .fenlei ul .last, .fenlei .public_middle1 .public_record2 ul .last, .public_middle1 .public_record2 .fenlei ul .last {
+      display: block;
+      width: 190px;
+      height: 190px;
+      float: left;
+      margin-top: -13px;
+      margin-left: 60px; }
+      .fenlei ul li a, .fenlei ul .index a, .fenlei ul .last a, .fenlei .public_middle1 .public_record ul .header a, .public_middle1 .public_record .fenlei ul .header a, .fenlei .public_middle1 .public_record2 ul .header a, .public_middle1 .public_record2 .fenlei ul .header a, .fenlei .public_middle1 .public_record ul .last a, .public_middle1 .public_record .fenlei ul .last a, .fenlei .public_middle1 .public_record2 ul .last a, .public_middle1 .public_record2 .fenlei ul .last a, .fenlei ul li .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul li .index, .fenlei ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul .index .index, .fenlei ul .last .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul .last .index, .fenlei .public_middle1 .public_record ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record ul .header .index, .public_middle1 .public_record .fenlei ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record .fenlei ul .header .index, .fenlei .public_middle1 .public_record2 ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record2 ul .header .index, .public_middle1 .public_record2 .fenlei ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 .fenlei ul .header .index {
+        display: block;
+        width: 180px;
+        height: 43px;
+        font-size: 16px;
+        line-height: 43px;
+        padding-left: 24px;
+        background: url(../image/circle.png) no-repeat;
+        background-position: 6px 18px;
+        overflow: hidden; }
+        .fenlei ul li a:hover, .fenlei ul .index a:hover, .fenlei ul .last a:hover, .fenlei .public_middle1 .public_record ul .header a:hover, .public_middle1 .public_record .fenlei ul .header a:hover, .fenlei .public_middle1 .public_record2 ul .header a:hover, .public_middle1 .public_record2 .fenlei ul .header a:hover, .fenlei ul li .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul li .index:hover, .fenlei ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul .index .index:hover, .fenlei ul .last .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul .last .index:hover, .fenlei .public_middle1 .public_record ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record ul .header .index:hover, .public_middle1 .public_record .fenlei ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record .fenlei ul .header .index:hover, .fenlei .public_middle1 .public_record2 ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record2 ul .header .index:hover, .public_middle1 .public_record2 .fenlei ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record2 .fenlei ul .header .index:hover {
+          color: #724743; }
+        .fenlei ul li a:active, .fenlei ul .index a:active, .fenlei ul .last a:active, .fenlei .public_middle1 .public_record ul .header a:active, .public_middle1 .public_record .fenlei ul .header a:active, .fenlei .public_middle1 .public_record2 ul .header a:active, .public_middle1 .public_record2 .fenlei ul .header a:active, .fenlei ul li .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul li .index:active, .fenlei ul .index .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul .index .index:active, .fenlei ul .last .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul .last .index:active, .fenlei .public_middle1 .public_record ul .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record ul .header .index:active, .public_middle1 .public_record .fenlei ul .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .public_middle1 .public_record .fenlei ul .header .index:active, .fenlei .public_middle1 .public_record2 ul .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record2 ul .header .index:active, .public_middle1 .public_record2 .fenlei ul .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .public_middle1 .public_record2 .fenlei ul .header .index:active {
+          text-decoration: underline; }
+    .fenlei ul .index {
+      margin-left: 20px; }
+    .fenlei ul .last {
+      width: 180px; }
+
+.wendang {
+  height: 440px;
+  margin-top: 45px; }
+  .wendang .line {
+    height: 25px;
+    margin-top: 0px;
+    border-bottom: 1px solid #c4c4ba; }
+    .wendang .line h2 {
+      float: left;
+      font-size: 18px;
+      margin-left: 10px;
+      color: #3d3d3d; }
+    .wendang .line .more {
+      float: right;
+      color: #836560;
+      margin-top: 7px; }
+      .wendang .line .more:hover {
+        text-decoration: underline; }
+  .wendang ul {
+    height: 190px;
+    margin-top: 55px; }
+    .wendang ul li, .wendang ul .index, .wendang ul .last, .wendang .public_middle1 .public_record ul .header, .public_middle1 .public_record .wendang ul .header, .wendang .public_middle1 .public_record2 ul .header, .public_middle1 .public_record2 .wendang ul .header, .wendang .public_middle1 .public_record ul .last, .public_middle1 .public_record .wendang ul .last, .wendang .public_middle1 .public_record2 ul .last, .public_middle1 .public_record2 .wendang ul .last {
+      display: block;
+      width: 190px;
+      height: 360px;
+      float: left;
+      margin-top: -13px;
+      margin-left: 6px; }
+      .wendang ul li .outline, .wendang ul .index .outline, .wendang ul .last .outline, .wendang .public_middle1 .public_record ul .header .outline, .public_middle1 .public_record .wendang ul .header .outline, .wendang .public_middle1 .public_record2 ul .header .outline, .public_middle1 .public_record2 .wendang ul .header .outline {
+        width: 180px;
+        height: 360px;
+        background-color: white;
+        border: 1px solid #dedede; }
+        .wendang ul li .outline img, .wendang ul .index .outline img, .wendang ul .last .outline img, .wendang .public_middle1 .public_record ul .header .outline img, .public_middle1 .public_record .wendang ul .header .outline img, .wendang .public_middle1 .public_record2 ul .header .outline img, .public_middle1 .public_record2 .wendang ul .header .outline img {
+          width: 166px;
+          height: 233px;
+          -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=0,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=90,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=180,Strength=2)  progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=270,Strength=2) ";
+          filter: "progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=0,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=90,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=180,Strength=2)  progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=270,Strength=2) ";
+          margin-top: 7px;
+          margin-left: 7px;
+          margin-right: 7px; }
+        .wendang ul li .outline a, .wendang ul .index .outline a, .wendang ul .last .outline a, .wendang .public_middle1 .public_record ul .header .outline a, .public_middle1 .public_record .wendang ul .header .outline a, .wendang .public_middle1 .public_record2 ul .header .outline a, .public_middle1 .public_record2 .wendang ul .header .outline a, .wendang ul li .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul li .outline .index, .wendang ul .index .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul .index .outline .index, .wendang ul .last .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul .last .outline .index, .wendang .public_middle1 .public_record ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang .public_middle1 .public_record ul .header .outline .index, .public_middle1 .public_record .wendang ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record .wendang ul .header .outline .index, .wendang .public_middle1 .public_record2 ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang .public_middle1 .public_record2 ul .header .outline .index, .public_middle1 .public_record2 .wendang ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 .wendang ul .header .outline .index {
+          font-size: 14px;
+          color: #724743;
+          margin-left: 7px;
+          margin-top: 16px;
+          display: block; }
+        .wendang ul li .outline h4, .wendang ul .index .outline h4, .wendang ul .last .outline h4, .wendang .public_middle1 .public_record ul .header .outline h4, .public_middle1 .public_record .wendang ul .header .outline h4, .wendang .public_middle1 .public_record2 ul .header .outline h4, .public_middle1 .public_record2 .wendang ul .header .outline h4 {
+          font-size: 12px;
+          color: #4d4d4d;
+          margin-top: 6px;
+          margin-left: 7px; }
+        .wendang ul li .outline h1, .wendang ul .index .outline h1, .wendang ul .last .outline h1, .wendang .public_middle1 .public_record ul .header .outline h1, .public_middle1 .public_record .wendang ul .header .outline h1, .wendang .public_middle1 .public_record2 ul .header .outline h1, .public_middle1 .public_record2 .wendang ul .header .outline h1 {
+          font-size: 15px;
+          margin-top: 36px;
+          margin-left: 7px; }
+    .wendang ul .index {
+      margin-left: 5px; }
+    .wendang ul .last {
+      width: 180px; }
+
+.footer {
+  width: 980px;
+  height: 50px;
+  margin: 0 auto 0 auto;
+  margin-top: 45px;
+  border-top: 1px solid #3d3d3d; }
+  .footer .footer_down {
+    font-family: Arial Italic;
+    font-size: 14px;
+    font-style: Italic;
+    margin-top: 10px;
+    height: 20px;
+    color: #a2a2a2;
+    padding-left: 6px; }
+    .footer .footer_down span {
+      font: 14px Arial; }
+    .footer .footer_down .footer_down_left {
+      float: right;
+      margin-right: -2px; }
+      .footer .footer_down .footer_down_left a, .footer .footer_down .footer_down_left .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .footer .footer_down .footer_down_left .index {
+        font-size: 14px;
+        font-style: normal;
+        margin-left: 4px;
+        margin-right: 3px;
+        width: 25px;
+        color: #252525; }
+        .footer .footer_down .footer_down_left a:hover, .footer .footer_down .footer_down_left .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .footer .footer_down .footer_down_left .index:hover {
+          background-color: transparent;
+          color: #72413b;
+          text-decoration: underline; }
+
+.public_middle1 {
+  width: 980px;
+  height: 433px;
+  margin: 0 auto 0 auto;
+  margin-top: 45px; }
+  .public_middle1 .public_record, .public_middle1 .public_record2 {
+    width: 305px;
+    height: 433px;
+    margin-top: 0px;
+    background-color: white;
+    float: left;
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+    -ms-filter: " progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=90,Strength=1) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=180,Strength=1)  progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=270,Strength=1) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=360,Strength=1)";
+    filter: " progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=90,Strength=1) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=180,Strength=1)  progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=270,Strength=1) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=360,Strength=1)"; }
+    .public_middle1 .public_record ul, .public_middle1 .public_record2 ul {
+      width: 305px;
+      height: 433px;
+      background-color: transparent; }
+      .public_middle1 .public_record ul li, .public_middle1 .public_record2 ul li, .public_middle1 .public_record .fenlei ul .index, .fenlei .public_middle1 .public_record ul .index, .public_middle1 .public_record2 .fenlei ul .index, .fenlei .public_middle1 .public_record2 ul .index, .public_middle1 .public_record .wendang ul .index, .wendang .public_middle1 .public_record ul .index, .public_middle1 .public_record2 .wendang ul .index, .wendang .public_middle1 .public_record2 ul .index, .public_middle1 .public_record ul .header, .public_middle1 .public_record2 ul .header, .public_middle1 .public_record ul .last, .public_middle1 .public_record2 ul .last {
+        width: 275px;
+        height: 14px;
+        padding: 17px 14px 17px 16px;
+        border-bottom: 1px solid #dedede;
+        color: #4d4d4d;
+        font-size: 12px; }
+        .public_middle1 .public_record ul li:hover, .public_middle1 .public_record2 ul li:hover, .public_middle1 .public_record .fenlei ul .index:hover, .fenlei .public_middle1 .public_record ul .index:hover, .public_middle1 .public_record2 .fenlei ul .index:hover, .fenlei .public_middle1 .public_record2 ul .index:hover, .public_middle1 .public_record .wendang ul .index:hover, .wendang .public_middle1 .public_record ul .index:hover, .public_middle1 .public_record2 .wendang ul .index:hover, .wendang .public_middle1 .public_record2 ul .index:hover, .public_middle1 .public_record ul .header:hover, .public_middle1 .public_record2 ul .header:hover, .public_middle1 .public_record ul .last:hover, .public_middle1 .public_record2 ul .last:hover {
+          background-color: #f9f9f9; }
+        .public_middle1 .public_record ul li a, .public_middle1 .public_record2 ul li a, .public_middle1 .public_record .fenlei ul .index a, .fenlei .public_middle1 .public_record ul .index a, .public_middle1 .public_record2 .fenlei ul .index a, .fenlei .public_middle1 .public_record2 ul .index a, .public_middle1 .public_record .wendang ul .index a, .wendang .public_middle1 .public_record ul .index a, .public_middle1 .public_record2 .wendang ul .index a, .wendang .public_middle1 .public_record2 ul .index a, .public_middle1 .public_record ul .header a, .public_middle1 .public_record2 ul .header a, .public_middle1 .public_record ul .last a, .public_middle1 .public_record2 ul .last a, .public_middle1 .public_record ul li .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record ul li .index, .public_middle1 .public_record2 ul li .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 ul li .index, .public_middle1 .public_record .fenlei ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record .fenlei ul .index .index, .fenlei .public_middle1 .public_record ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record ul .index .index, .public_middle1 .public_record2 .fenlei ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 .fenlei ul .index .index, .fenlei .public_middle1 .public_record2 ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record2 ul .index .index, .public_middle1 .public_record .wendang ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record .wendang ul .index .index, .wendang .public_middle1 .public_record ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang .public_middle1 .public_record ul .index .index, .public_middle1 .public_record2 .wendang ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 .wendang ul .index .index, .wendang .public_middle1 .public_record2 ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang .public_middle1 .public_record2 ul .index .index, .public_middle1 .public_record ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record ul .header .index, .public_middle1 .public_record2 ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 ul .header .index, .public_middle1 .public_record ul .last .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record ul .last .index, .public_middle1 .public_record2 ul .last .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 ul .last .index {
+          font-size: 13px;
+          color: #999999; }
+          .public_middle1 .public_record ul li a:hover, .public_middle1 .public_record2 ul li a:hover, .public_middle1 .public_record .fenlei ul .index a:hover, .fenlei .public_middle1 .public_record ul .index a:hover, .public_middle1 .public_record2 .fenlei ul .index a:hover, .fenlei .public_middle1 .public_record2 ul .index a:hover, .public_middle1 .public_record .wendang ul .index a:hover, .wendang .public_middle1 .public_record ul .index a:hover, .public_middle1 .public_record2 .wendang ul .index a:hover, .wendang .public_middle1 .public_record2 ul .index a:hover, .public_middle1 .public_record ul .header a:hover, .public_middle1 .public_record2 ul .header a:hover, .public_middle1 .public_record ul .last a:hover, .public_middle1 .public_record2 ul .last a:hover, .public_middle1 .public_record ul li .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record ul li .index:hover, .public_middle1 .public_record2 ul li .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record2 ul li .index:hover, .public_middle1 .public_record .fenlei ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record .fenlei ul .index .index:hover, .fenlei .public_middle1 .public_record ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record ul .index .index:hover, .public_middle1 .public_record2 .fenlei ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record2 .fenlei ul .index .index:hover, .fenlei .public_middle1 .public_record2 ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei .public_middle1 .public_record2 ul .index .index:hover, .public_middle1 .public_record .wendang ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record .wendang ul .index .index:hover, .wendang .public_middle1 .public_record ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .wendang .public_middle1 .public_record ul .index .index:hover, .public_middle1 .public_record2 .wendang ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record2 .wendang ul .index .index:hover, .wendang .public_middle1 .public_record2 ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .wendang .public_middle1 .public_record2 ul .index .index:hover, .public_middle1 .public_record ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record ul .header .index:hover, .public_middle1 .public_record2 ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record2 ul .header .index:hover, .public_middle1 .public_record ul .last .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record ul .last .index:hover, .public_middle1 .public_record2 ul .last .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record2 ul .last .index:hover {
+            color: #92514a; }
+      .public_middle1 .public_record ul .header, .public_middle1 .public_record2 ul .header {
+        width: 275px;
+        height: 18px;
+        padding: 15px 15px;
+        background-color: transparent; }
+        .public_middle1 .public_record ul .header:hover, .public_middle1 .public_record2 ul .header:hover {
+          background-color: transparent !important; }
+        .public_middle1 .public_record ul .header h2, .public_middle1 .public_record2 ul .header h2 {
+          font-size: 18px;
+          display: block;
+          float: left;
+          color: #333333; }
+        .public_middle1 .public_record ul .header a, .public_middle1 .public_record2 ul .header a, .public_middle1 .public_record ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record ul .header .index, .public_middle1 .public_record2 ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 ul .header .index {
+          font-size: 12px;
+          display: block;
+          margin-top: 6px;
+          margin-right: 4px;
+          float: right;
+          color: #7c5753; }
+          .public_middle1 .public_record ul .header a:hover, .public_middle1 .public_record2 ul .header a:hover, .public_middle1 .public_record ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record ul .header .index:hover, .public_middle1 .public_record2 ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record2 ul .header .index:hover {
+            text-decoration: underline; }
+      .public_middle1 .public_record ul .last, .public_middle1 .public_record2 ul .last {
+        border-bottom: none;
+        padding: 15px 14px 19px 16px; }
+  .public_middle1 .public_record2 {
+    margin-left: 32px !important; }

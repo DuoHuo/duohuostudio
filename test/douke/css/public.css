@@ -1,0 +1,88 @@
+.public_middle1, .public_middle2 {
+  width: 980px;
+  height: 288px;
+  margin: 0 auto 0 auto;
+  margin-top: 60px; }
+  .public_middle1 .public_record, .public_middle2 .public_record, .public_middle1 .public_record2, .public_middle2 .public_record2 {
+    width: 305px;
+    height: 288px;
+    margin-top: 0px;
+    float: left;
+    position: relative; }
+    .public_middle1 .public_record .public_recordin, .public_middle2 .public_record .public_recordin, .public_middle1 .public_record2 .public_recordin, .public_middle2 .public_record2 .public_recordin {
+      width: 305px !important;
+      height: 288px !important;
+      background-color: white;
+      -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+      position: relative;
+      z-index: 1; }
+      .public_middle1 .public_record .public_recordin ul, .public_middle2 .public_record .public_recordin ul, .public_middle1 .public_record2 .public_recordin ul, .public_middle2 .public_record2 .public_recordin ul {
+        width: 305px !important;
+        height: 288px !important;
+        background-color: transparent; }
+        .public_middle1 .public_record .public_recordin ul li, .public_middle2 .public_record .public_recordin ul li, .public_middle1 .public_record2 .public_recordin ul li, .public_middle2 .public_record2 .public_recordin ul li {
+          width: 275px !important;
+          height: 16px;
+          padding: 16px 14px 16px 16px !important;
+          border-bottom: 1px solid #dedede;
+          color: #4d4d4d;
+          font-size: 12px !important; }
+          .public_middle1 .public_record .public_recordin ul li .ic, .public_middle2 .public_record .public_recordin ul li .ic, .public_middle1 .public_record2 .public_recordin ul li .ic, .public_middle2 .public_record2 .public_recordin ul li .ic {
+            display: inline-block;
+            width: 16px;
+            height: 16px; }
+          .public_middle1 .public_record .public_recordin ul li .ic-word, .public_middle2 .public_record .public_recordin ul li .ic-word, .public_middle1 .public_record2 .public_recordin ul li .ic-word, .public_middle2 .public_record2 .public_recordin ul li .ic-word {
+            background: url(../image/office.png) no-repeat;
+            background-position: 0px 0px; }
+          .public_middle1 .public_record .public_recordin ul li .ic-pdf, .public_middle2 .public_record .public_recordin ul li .ic-pdf, .public_middle1 .public_record2 .public_recordin ul li .ic-pdf, .public_middle2 .public_record2 .public_recordin ul li .ic-pdf {
+            background: url(../image/office.png) no-repeat;
+            background-position: -32px 0px; }
+          .public_middle1 .public_record .public_recordin ul li .ic-ppt, .public_middle2 .public_record .public_recordin ul li .ic-ppt, .public_middle1 .public_record2 .public_recordin ul li .ic-ppt, .public_middle2 .public_record2 .public_recordin ul li .ic-ppt {
+            background: url(../image/office.png) no-repeat;
+            background-position: -16px 0px; }
+          .public_middle1 .public_record .public_recordin ul li a, .public_middle2 .public_record .public_recordin ul li a, .public_middle1 .public_record2 .public_recordin ul li a, .public_middle2 .public_record2 .public_recordin ul li a {
+            font-size: 14px;
+            position: relative;
+            top: -2px;
+            color: #929292; }
+            .public_middle1 .public_record .public_recordin ul li a:hover, .public_middle2 .public_record .public_recordin ul li a:hover, .public_middle1 .public_record2 .public_recordin ul li a:hover, .public_middle2 .public_record2 .public_recordin ul li a:hover {
+              color: #6e6e6e; }
+      .public_middle1 .public_record .public_recordin .header, .public_middle2 .public_record .public_recordin .header, .public_middle1 .public_record2 .public_recordin .header, .public_middle2 .public_record2 .public_recordin .header {
+        width: 275px;
+        height: 18px;
+        padding: 15px 15px;
+        background-color: transparent; }
+        .public_middle1 .public_record .public_recordin .header h2, .public_middle2 .public_record .public_recordin .header h2, .public_middle1 .public_record2 .public_recordin .header h2, .public_middle2 .public_record2 .public_recordin .header h2 {
+          font-size: 18px !important;
+          display: block;
+          float: left;
+          color: #575757; }
+        .public_middle1 .public_record .public_recordin .header:hover, .public_middle2 .public_record .public_recordin .header:hover, .public_middle1 .public_record2 .public_recordin .header:hover, .public_middle2 .public_record2 .public_recordin .header:hover {
+          background-color: transparent !important; }
+        .public_middle1 .public_record .public_recordin .header a, .public_middle2 .public_record .public_recordin .header a, .public_middle1 .public_record2 .public_recordin .header a, .public_middle2 .public_record2 .public_recordin .header a {
+          ont-size: 12px;
+          display: block;
+          margin-top: 6px;
+          float: right;
+          color: #7c5753 !important; }
+          .public_middle1 .public_record .public_recordin .header a:hover, .public_middle2 .public_record .public_recordin .header a:hover, .public_middle1 .public_record2 .public_recordin .header a:hover, .public_middle2 .public_record2 .public_recordin .header a:hover {
+            text-decoration: underline; }
+        .public_middle1 .public_record .public_recordin .header .last, .public_middle2 .public_record .public_recordin .header .last, .public_middle1 .public_record2 .public_recordin .header .last, .public_middle2 .public_record2 .public_recordin .header .last {
+          border-bottom: none;
+          padding: 15px 14px 19px 16px; }
+    .public_middle1 .public_record .ie_shdow, .public_middle2 .public_record .ie_shdow, .public_middle1 .public_record2 .ie_shdow, .public_middle2 .public_record2 .ie_shdow {
+      width: 305px\9;
+      height: 288px\9;
+      position: absolute;
+      background-color: #ababab \9;
+      filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
+      -ms-filter: "progid:DXImageTransform.Microsoft.Blur(pixelradius=2)";
+      top: -2px;
+      left: -2px; }
+  .public_middle1 .public_record2, .public_middle2 .public_record2 {
+    margin-left: 32px !important; }
+
+.public_middle2 {
+  margin-top: 32px; }

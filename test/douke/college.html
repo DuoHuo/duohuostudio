@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>豆壳网</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/lrtk.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/public.css"> -->
+    <script type="text/javascript" src="js/koala.min.1.5.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="top">
+            <a href="index.html"><img src="image/logo.png" alt="" class="logo"></a>
+            <!-- 搜索开始 -->
+            <div class="search" >
+                <form action="#" method="post"> 
+                    <input type="text" class="search_input" placeholder="搜索你想要的文档">
+                    <input type="submit" class="search_button" value="">
+                </form>
+            </div>
+            <!-- 搜索结束 -->
+            <div class="upload_file">
+                <a href="#">上传资料</a>
+            </div>
+            <div class="free_print">
+                <a href="#">免费打印</a>
+            </div> 
+            
+        </div>
+    </div>
+    <div class="topbar-down">
+        <div class="topbar-middle">
+            <a href="index.html"  class="index">首页</a>
+            <a href="public.html">公共课</a>
+            <a href="professional.html">专业课</a>
+            <!-- 登录注册 -->
+            <div class="left">
+                <a href="#" class="login" data-toggle="modal" data-target="#login">登录</a>
+                <img src="image/line.png">
+                <a href="#" class="signup" data-toggle="modal" data-target="#register">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <form action="#" method="get">
+                    <div class="modal-body">
+                        <div class="input-group-text">
+                                 <!-- <span class="input-group-addon">邮箱</span> -->
+                            <input type="text" class="form-control-text" placeholder="用户名/邮箱">
+                        </div> 
+                        <div class="input-group-password">
+                                <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="form-control-password" placeholder="密码">
+                            <a  class="un-sign-in" data-toggle="modal" data-target="#register">还未注册账号</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+                        <button type="button" class="button-login"></button>
+                    </div>
+                </form>
+                    <!-- <hr /> -->
+                    <!-- <p id = 'otherlogin'>
+                        或通过以下方式登录
+                    </p>
+                    <div class = 'otherloginbutton'>
+                        <a href="#"><img src="image/sinalogin.png" alt="新浪微博" /></a>
+                        <a href=""><img src="image/rrlogin.png" alt="人人" /></a>
+                    </div> -->
+                   <!--  <div>
+                    </div> -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <form action="#" method="get">
+                    <div class="modal-body">
+                        <div class="input-group-text">
+                                     <!-- <span class="input-group-addon">邮箱</span> -->
+                            <input type="text" class="form-control-text" placeholder="邮箱注册">
+                        </div> 
+                        <div class="input-group-password">
+                                    <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="form-control-password" placeholder="输入初始密码">
+                                <!-- <a  class="un-sign-in" href="#">还未注册账号</a> -->
+                        </div>
+                        <div class="re-input-group-password">
+                                    <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="re-form-control-password" placeholder="重复输入密码">
+                                <!-- <a  class="un-sign-in" href="#">还未注册账号</a> -->
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+                            <button type="button" class="button-signin"></button>
+                        </div>
+                </form>
+                        <!-- <hr /> -->
+                        <!-- <p id = 'otherlogin'>
+                            或通过以下方式登录
+                        </p>
+                        <div class = 'otherloginbutton'>
+                            <a href="#"><img src="image/sinalogin.png" alt="新浪微博" /></a>
+                            <a href=""><img src="image/rrlogin.png" alt="人人" /></a>
+                        </div> -->
+                       <!--  <div>
+                        </div> -->
+            </div>
+                <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <div class="middle" style="width:980px;height:40px;margin:70px auto 18px auto">
+        <h1 style="font-size:24px;color:#996D69">计算机与软件学院</h1>
+    </div>
+	<div class="public_middle1" style="margin-top:10px">
+		<div class="public_record">
+			<div class="public_recordin">
+				<ul>
+				    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+    					<h2>高等数学</h2>
+    					<a href="course-detail-pages.html">更多</a>
+    				</li>
+    				<li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+    					<span class="ic ic-word"></span>
+    					<a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+    					
+    				</li>
+    				<li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+    					<span class="ic ic-pdf"></span>
+    					<a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+    					
+    				</li>
+    				<li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+    					<span class="ic ic-pdf"></span>
+    					<a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+    					
+    				</li>
+    				<li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+    					<span class="ic ic-word"></span>
+    					<a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+    					
+    				</li>
+    				<li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+    					<span class="ic ic-ppt"></span>
+    					<a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+    				</li>
+
+			    </ul>
+			</div>
+			<div class="ie_shdow"></div>
+		</div>
+
+		<div class="public_record2">
+			<div class="public_recordin">
+				<ul>
+                    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <h2>高等数学</h2>
+                        <a href="course-detail-pages.html">更多</a>
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+                        <span class="ic ic-ppt"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                    </li>
+
+                </ul>
+			</div>
+			<div class="ie_shdow"></div>
+		</div>
+		<div class="public_record2">
+			<div class="public_recordin">
+				<ul>
+                    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <h2>高等数学</h2>
+                        <a href="course-detail-pages.html">更多</a>
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+                        <span class="ic ic-ppt"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                    </li>
+
+                </ul>
+			</div>
+			<div class="ie_shdow"></div>
+		</div>
+	</div>
+	<div class="public_middle2">
+		<div class="public_record">
+            <div class="public_recordin">
+                <ul>
+                    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <h2>高等数学</h2>
+                        <a href="course-detail-pages.html">更多</a>
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+                        <span class="ic ic-ppt"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="ie_shdow"></div>
+        </div>
+
+        <div class="public_record2">
+            <div class="public_recordin">
+                <ul>
+                    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <h2>高等数学</h2>
+                        <a href="course-detail-pages.html">更多</a>
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+                        <span class="ic ic-ppt"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="ie_shdow"></div>
+        </div>
+        <div class="public_record2">
+            <div class="public_recordin">
+                <ul>
+                    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <h2>高等数学</h2>
+                        <a href="course-detail-pages.html">更多</a>
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+                        <span class="ic ic-ppt"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="ie_shdow"></div>
+        </div>
+	</div>
+	<div class="public_middle2">
+        <div class="public_record">
+            <div class="public_recordin">
+                <ul>
+                    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <h2>高等数学</h2>
+                        <a href="course-detail-pages.html">更多</a>
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+                        <span class="ic ic-ppt"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="ie_shdow"></div>
+        </div>
+
+        <div class="public_record2">
+            <div class="public_recordin">
+                <ul>
+                    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <h2>高等数学</h2>
+                        <a href="course-detail-pages.html">更多</a>
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+                        <span class="ic ic-ppt"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="ie_shdow"></div>
+        </div>
+        <div class="public_record2">
+            <div class="public_recordin">
+                <ul>
+                    <li class="header" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <h2>高等数学</h2>
+                        <a href="course-detail-pages.html">更多</a>
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-pdf"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px">
+                        <span class="ic ic-word"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                        
+                    </li>
+                    <li class="last" style="width: 305px!important;height: 49px; margin-right: 0px; margin-left: 0px;margin-top:-2px;border-bottom:none">
+                        <span class="ic ic-ppt"></span>
+                        <a href="article-view.html">10-11年高等数学（下册)期末A卷及答案</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="ie_shdow"></div>
+        </div>
+    </div>
+	<div class="go">
+    	<ul class="prestation-go">
+            <li>
+                <a class="pre" href="#"><<</a>
+            </li>
+    		<li>
+    			<a href="#">1</a>
+    		</li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">4</a>
+            </li>
+            <li>
+                <a href="#">5</a>
+            </li>
+            <li>
+                <a href="#">6</a>
+            </li>
+            <li>
+                <a class="next" href="#">>></a>
+            </li>
+    	</ul>
+    </div>	
+
+</body>
+</html>

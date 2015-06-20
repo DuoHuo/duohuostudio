@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>豆壳网</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/lrtk.css">
+  <script type="text/javascript" src="js/koala.min.1.5.js"></script>
+  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/panduan.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="top">
+        <a href="index.html"><img src="image/logo.png" alt="" class="logo"></a>
+            <!-- 搜索开始 -->
+            <div class="search" >
+                <form action="#" method="post"> 
+                  <input type="text" class="search_input" placeholder="搜索你想要的文档">
+                  <input type="submit" class="search_button" value="">
+              </form>
+            </div>
+            <!-- 搜索结束 -->
+            <div class="upload_file">
+              <a href="#">上传资料</a>
+            </div>
+            <div class="free_print">
+              <a href="#">免费打印</a>
+            </div> 
+            
+    </div>
+  </div>
+  <div class="topbar-down">
+    <div class="topbar-middle">
+        <a href="index.html"  class="index">首页</a>
+        <a href="public.html">公共课</a>
+        <a href="professional.html">专业课</a>
+        <!-- 登录注册 -->
+        <div class="left">
+            <a href="#" class="login" data-toggle="modal" data-target="#login">登录</a>
+                <img src="image/line.png">
+                <a href="#" class="signup" data-toggle="modal" data-target="#register">注册</a>
+          </div>
+      </div>
+  </div>
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <form action="#" method="get">
+                    <div class="modal-body">
+                        <div class="input-group-text">
+                                 <!-- <span class="input-group-addon">邮箱</span> -->
+                            <input type="text" class="form-control-text" placeholder="用户名/邮箱">
+                        </div> 
+                        <div class="input-group-password">
+                                <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="form-control-password" placeholder="密码">
+                            <a  class="un-sign-in" data-toggle="modal" data-target="#register">还未注册账号</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+                        <button type="button" class="button-login"></button>
+                    </div>
+                </form>
+                    <!-- <hr /> -->
+                    <!-- <p id = 'otherlogin'>
+                        或通过以下方式登录
+                    </p>
+                    <div class = 'otherloginbutton'>
+                        <a href="#"><img src="image/sinalogin.png" alt="新浪微博" /></a>
+                        <a href=""><img src="image/rrlogin.png" alt="人人" /></a>
+                    </div> -->
+                   <!--  <div>
+                    </div> -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <form action="#" method="get">
+                    <div class="modal-body">
+                        <div class="input-group-text">
+                                     <!-- <span class="input-group-addon">邮箱</span> -->
+                            <input type="text" class="form-control-text" placeholder="邮箱注册">
+                        </div> 
+                        <div class="input-group-password">
+                                    <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="form-control-password" placeholder="输入初始密码">
+                                <!-- <a  class="un-sign-in" href="#">还未注册账号</a> -->
+                        </div>
+                        <div class="re-input-group-password">
+                                    <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="re-form-control-password" placeholder="重复输入密码">
+                                <!-- <a  class="un-sign-in" href="#">还未注册账号</a> -->
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+                            <button type="button" class="button-signin"></button>
+                        </div>
+                </form>
+                        <!-- <hr /> -->
+                        <!-- <p id = 'otherlogin'>
+                            或通过以下方式登录
+                        </p>
+                        <div class = 'otherloginbutton'>
+                            <a href="#"><img src="image/sinalogin.png" alt="新浪微博" /></a>
+                            <a href=""><img src="image/rrlogin.png" alt="人人" /></a>
+                        </div> -->
+                       <!--  <div>
+                        </div> -->
+            </div>
+                <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div class="artical-title">
+        <b class="id id-doc"></b> 
+        <span>操作系统试题</span>
+        <p class="article-info">
+            <span>浏览次数：148  <i>|</i> 收藏次数：5  <i>|</i>  分享次数：8 </span>
+        </p>          
+    </div>
+    <div id="fix-top-bar">
+    <div class="middle">
+        <b class="im id-doc"></b>
+        <div class="line">
+          <span class="a-title">操作系统试题</span>
+          <input class="page_cur" type="text" value="1"> 
+          <span class="page_num">/7</span>
+          <!-- <div class="screen">
+              <li title="全屏显示" class="fullscreen"></li>
+              <li title="恢复窗口" class="escscreen"></li>
+          </div> --> 
+           <div class="free-print">
+                <a href="#"></a>
+                <span class="free-print-price">
+                   <span class="print-price"></span>
+                   25&nbsp;豆币
+                </span>
+           </div>
+            <div class="free-download">
+                    <a href="#"></a>
+                    <span class="free-download-price">
+                       <span class="download-price"></span>
+                       15&nbsp;豆币
+                    </span>
+            </div>
+        </div>
+    </div>
+</div>
+  
+    <div class="inner">
+        <img src="image/inner-content.png">
+    </div>
+    <div class="inner2">
+        <img src="image/inner-content.png">
+    </div>
+    <div class="inner2">
+        <img src="image/inner-content.png">
+    </div>
+    <div class="inner2">
+        <img src="image/inner-content.png">
+    </div>
+       <div class="fix-bottom-bar">
+         <div class="middle">
+            <ul class="content">
+                 <div class="sharetilte">分享到：</div>
+                 <a href="#" title="QQ空间" class="Qzone"></a>
+                 <a href="#" title="微信" class="wechat"></a>
+                 <a href="#" title="人人网" class="renren"></a>
+                 <a href="#" title="新浪微博" class="sina"></a>
+            </ul>
+            <div class="collect">
+                <a href="###"></a>
+            </div>
+            <div class="free-print">
+                <a href="#"></a>
+                <span class="free-print-price">
+                   <span class="print-price"></span>
+                   25&nbsp;豆币
+                </span>
+            </div>
+            <div class="free-download">
+                    <a href="#"></a>
+                    <span class="free-download-price">
+                       <span class="download-price"></span>
+                       15&nbsp;豆币
+                    </span>
+            </div>
+         </div>
+      </div>
+</body>
+</html>

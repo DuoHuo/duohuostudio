@@ -1,0 +1,870 @@
+body {
+  background: #fffff9 !important;
+  margin: 0; }
+
+.header {
+  margin: 0 auto 0 auto;
+  height: 60px;
+  background: #f6f6f1;
+  border-bottom: 1px solid #e6e6e3; }
+
+.header .top {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto 0 auto; }
+  .header .top .logo {
+    width: 106px;
+    height: 33px;
+    float: left;
+    margin-top: 14px; }
+  .header .top .search {
+    width: 248px;
+    height: 27px;
+    float: left;
+    margin-top: 21px;
+    margin-left: 114px;
+    background: url(../image/search_outline.png) no-repeat; }
+    .header .top .search .search_input {
+      width: 208px;
+      height: 24px;
+      margin-left: 11px;
+      margin-top: 1px;
+      border: none;
+      text-align: left;
+      font-size: 14px;
+      color: #7c5753;
+      float: left;
+      line-height: 24px;
+      display: block;
+      background-color: transparent; }
+      .header .top .search .search_input::-webkit-input-placeholder {
+        color: #7c5753; }
+      .header .top .search .search_input:-moz-placeholder {
+        color: #7c5753; }
+      .header .top .search .search_input::-moz-placeholder {
+        color: #7c5753; }
+      .header .top .search .search_input:-ms-input-placeholder {
+        color: #7c5753; }
+    .header .top .search .search_button {
+      width: 18px;
+      height: 18px;
+      float: left;
+      cursor: pointer;
+      border: none;
+      background-image: url(../image/search_icon.png);
+      background-color: transparent;
+      margin-top: 4px; }
+  .header .top .free_print {
+    background-image: url(../image/free_print.png);
+    width: 76px;
+    height: 21px;
+    float: right;
+    margin-top: 21px;
+    margin-right: 79px;
+    text-align: center; }
+    .header .top .free_print:hover {
+      background-image: url(../image/free_print_hover.png); }
+    .header .top .free_print a, .header .top .free_print .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .header .top .free_print .index {
+      font-size: 12px;
+      color: #6f5350;
+      height: 21px;
+      line-height: 21px;
+      text-decoration: none;
+      display: block; }
+      .header .top .free_print a:hover, .header .top .free_print .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .header .top .free_print .index:hover {
+        color: white; }
+  .header .top .upload_file {
+    background-image: url(../image/free_print.png);
+    width: 76px;
+    height: 21px;
+    float: right;
+    margin-top: 21px;
+    margin-right: 50px;
+    text-align: center; }
+    .header .top .upload_file:hover {
+      background-image: url(../image/free_print_hover.png); }
+    .header .top .upload_file a, .header .top .upload_file .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .header .top .upload_file .index {
+      font-size: 12px;
+      color: #6f5350;
+      height: 21px;
+      line-height: 21px;
+      text-decoration: none;
+      display: block; }
+      .header .top .upload_file a:hover, .header .top .upload_file .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .header .top .upload_file .index:hover {
+        color: white; }
+
+.topbar-down {
+  background: #f6f6f1;
+  height: 30px;
+  margin: 0 auto 0 auto; }
+  .topbar-down .topbar-middle {
+    width: 980px;
+    margin: 0 auto 0 auto;
+    height: 30px; }
+    .topbar-down .topbar-middle a, .topbar-down .topbar-middle .index {
+      font-size: 14px;
+      display: inline-block;
+      margin-top: 7px;
+      margin-left: 140px;
+      color: #6f5350;
+      width: 51px;
+      height: 18px;
+      line-height: 18px;
+      text-align: center; }
+      .topbar-down .topbar-middle a:hover, .topbar-down .topbar-middle .index:hover {
+        background-color: #afafa8;
+        color: white; }
+    .topbar-down .topbar-middle .index {
+      margin-left: 40px;
+      width: 35px; }
+    .topbar-down .topbar-middle .left {
+      float: right;
+      width: 64px; }
+      .topbar-down .topbar-middle .left a, .topbar-down .topbar-middle .left .index {
+        font-size: 12px;
+        margin-left: 1px;
+        width: 25px; }
+        .topbar-down .topbar-middle .left a:hover, .topbar-down .topbar-middle .left .index:hover {
+          background-color: transparent;
+          color: #868686; }
+
+.slides, .fenlei, .fenlei .line, .wendang, .wendang .line, .course-detail-page, .course-detail-page .line {
+  width: 980px;
+  height: 290px;
+  margin: 0 auto 0 auto;
+  margin-top: 34px; }
+
+.fenlei {
+  height: 244px; }
+  .fenlei .line {
+    height: 25px;
+    margin-top: 0px;
+    border-bottom: 1px solid #c4c4ba; }
+    .fenlei .line h2 {
+      float: left;
+      font-size: 18px;
+      margin-left: 10px;
+      color: #3d3d3d; }
+    .fenlei .line .more {
+      float: right;
+      color: #836560;
+      margin-top: 7px; 
+      font-size: 14px;}
+      .fenlei .line .more:hover {
+        text-decoration: underline; }
+  .fenlei ul {
+    height: 190px;
+    margin-top: 30px; }
+    .fenlei ul li, .fenlei ul .index, .fenlei ul .last, .fenlei ul .public_middle1 .public_record .public_recordin .header, .public_middle1 .public_record .public_recordin .fenlei ul .header, .fenlei ul .public_middle2 .public_record .public_recordin .header, .public_middle2 .public_record .public_recordin .fenlei ul .header, .fenlei ul .public_middle1 .public_record2 .public_recordin .header, .public_middle1 .public_record2 .public_recordin .fenlei ul .header, .fenlei ul .public_middle2 .public_record2 .public_recordin .header, .public_middle2 .public_record2 .public_recordin .fenlei ul .header, .fenlei ul .public_middle1 .public_record .public_recordin .last, .public_middle1 .public_record .public_recordin .fenlei ul .last, .fenlei ul .public_middle2 .public_record .public_recordin .last, .public_middle2 .public_record .public_recordin .fenlei ul .last, .fenlei ul .public_middle1 .public_record2 .public_recordin .last, .public_middle1 .public_record2 .public_recordin .fenlei ul .last, .fenlei ul .public_middle2 .public_record2 .public_recordin .last, .public_middle2 .public_record2 .public_recordin .fenlei ul .last {
+      display: block;
+      width: 190px;
+      height: 190px;
+      float: left;
+      margin-top: -13px;
+      margin-left: 60px; }
+      .fenlei ul li a, .fenlei ul .index a, .fenlei ul .last a, .fenlei ul .public_middle1 .public_record .public_recordin .header a, .public_middle1 .public_record .public_recordin .fenlei ul .header a, .fenlei ul .public_middle2 .public_record .public_recordin .header a, .public_middle2 .public_record .public_recordin .fenlei ul .header a, .fenlei ul .public_middle1 .public_record2 .public_recordin .header a, .public_middle1 .public_record2 .public_recordin .fenlei ul .header a, .fenlei ul .public_middle2 .public_record2 .public_recordin .header a, .public_middle2 .public_record2 .public_recordin .fenlei ul .header a, .fenlei ul .public_middle1 .public_record .public_recordin .last a, .public_middle1 .public_record .public_recordin .fenlei ul .last a, .fenlei ul .public_middle2 .public_record .public_recordin .last a, .public_middle2 .public_record .public_recordin .fenlei ul .last a, .fenlei ul .public_middle1 .public_record2 .public_recordin .last a, .public_middle1 .public_record2 .public_recordin .fenlei ul .last a, .fenlei ul .public_middle2 .public_record2 .public_recordin .last a, .public_middle2 .public_record2 .public_recordin .fenlei ul .last a, .fenlei ul li .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul li .index, .fenlei ul .index .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul .index .index, .fenlei ul .last .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul .last .index, .fenlei ul .public_middle1 .public_record .public_recordin .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul .public_middle1 .public_record .public_recordin .header .index, .public_middle1 .public_record .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record .public_recordin .fenlei ul .header .index, .fenlei ul .public_middle2 .public_record .public_recordin .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul .public_middle2 .public_record .public_recordin .header .index, .public_middle2 .public_record .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle2 .public_record .public_recordin .fenlei ul .header .index, .fenlei ul .public_middle1 .public_record2 .public_recordin .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul .public_middle1 .public_record2 .public_recordin .header .index, .public_middle1 .public_record2 .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 .public_recordin .fenlei ul .header .index, .fenlei ul .public_middle2 .public_record2 .public_recordin .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .fenlei ul .public_middle2 .public_record2 .public_recordin .header .index, .public_middle2 .public_record2 .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle2 .public_record2 .public_recordin .fenlei ul .header .index {
+        display: block;
+        width: 180px;
+        height: 43px;
+        font-size: 16px;
+        line-height: 43px;
+        padding-left: 24px;
+        background: url(../image/circle.png) no-repeat;
+        background-position: 6px 18px;
+        overflow: hidden; }
+        .fenlei ul li a:hover, .fenlei ul .index a:hover, .fenlei ul .last a:hover, .fenlei ul .public_middle1 .public_record .public_recordin .header a:hover, .public_middle1 .public_record .public_recordin .fenlei ul .header a:hover, .fenlei ul .public_middle2 .public_record .public_recordin .header a:hover, .public_middle2 .public_record .public_recordin .fenlei ul .header a:hover, .fenlei ul .public_middle1 .public_record2 .public_recordin .header a:hover, .public_middle1 .public_record2 .public_recordin .fenlei ul .header a:hover, .fenlei ul .public_middle2 .public_record2 .public_recordin .header a:hover, .public_middle2 .public_record2 .public_recordin .fenlei ul .header a:hover, .fenlei ul .public_middle1 .public_record .public_recordin .last a:hover, .public_middle1 .public_record .public_recordin .fenlei ul .last a:hover, .fenlei ul .public_middle2 .public_record .public_recordin .last a:hover, .public_middle2 .public_record .public_recordin .fenlei ul .last a:hover, .fenlei ul .public_middle1 .public_record2 .public_recordin .last a:hover, .public_middle1 .public_record2 .public_recordin .fenlei ul .last a:hover, .fenlei ul .public_middle2 .public_record2 .public_recordin .last a:hover, .public_middle2 .public_record2 .public_recordin .fenlei ul .last a:hover, .fenlei ul li .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul li .index:hover, .fenlei ul .index .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul .index .index:hover, .fenlei ul .last .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul .last .index:hover, .fenlei ul .public_middle1 .public_record .public_recordin .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul .public_middle1 .public_record .public_recordin .header .index:hover, .public_middle1 .public_record .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record .public_recordin .fenlei ul .header .index:hover, .fenlei ul .public_middle2 .public_record .public_recordin .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul .public_middle2 .public_record .public_recordin .header .index:hover, .public_middle2 .public_record .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle2 .public_record .public_recordin .fenlei ul .header .index:hover, .fenlei ul .public_middle1 .public_record2 .public_recordin .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul .public_middle1 .public_record2 .public_recordin .header .index:hover, .public_middle1 .public_record2 .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle1 .public_record2 .public_recordin .fenlei ul .header .index:hover, .fenlei ul .public_middle2 .public_record2 .public_recordin .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .fenlei ul .public_middle2 .public_record2 .public_recordin .header .index:hover, .public_middle2 .public_record2 .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .public_middle2 .public_record2 .public_recordin .fenlei ul .header .index:hover {
+          color: #724743; }
+        .fenlei ul li a:active, .fenlei ul .index a:active, .fenlei ul .last a:active, .fenlei ul .public_middle1 .public_record .public_recordin .header a:active, .public_middle1 .public_record .public_recordin .fenlei ul .header a:active, .fenlei ul .public_middle2 .public_record .public_recordin .header a:active, .public_middle2 .public_record .public_recordin .fenlei ul .header a:active, .fenlei ul .public_middle1 .public_record2 .public_recordin .header a:active, .public_middle1 .public_record2 .public_recordin .fenlei ul .header a:active, .fenlei ul .public_middle2 .public_record2 .public_recordin .header a:active, .public_middle2 .public_record2 .public_recordin .fenlei ul .header a:active, .fenlei ul .public_middle1 .public_record .public_recordin .last a:active, .public_middle1 .public_record .public_recordin .fenlei ul .last a:active, .fenlei ul .public_middle2 .public_record .public_recordin .last a:active, .public_middle2 .public_record .public_recordin .fenlei ul .last a:active, .fenlei ul .public_middle1 .public_record2 .public_recordin .last a:active, .public_middle1 .public_record2 .public_recordin .fenlei ul .last a:active, .fenlei ul .public_middle2 .public_record2 .public_recordin .last a:active, .public_middle2 .public_record2 .public_recordin .fenlei ul .last a:active, .fenlei ul li .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul li .index:active, .fenlei ul .index .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul .index .index:active, .fenlei ul .last .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul .last .index:active, .fenlei ul .public_middle1 .public_record .public_recordin .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul .public_middle1 .public_record .public_recordin .header .index:active, .public_middle1 .public_record .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .public_middle1 .public_record .public_recordin .fenlei ul .header .index:active, .fenlei ul .public_middle2 .public_record .public_recordin .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul .public_middle2 .public_record .public_recordin .header .index:active, .public_middle2 .public_record .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .public_middle2 .public_record .public_recordin .fenlei ul .header .index:active, .fenlei ul .public_middle1 .public_record2 .public_recordin .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul .public_middle1 .public_record2 .public_recordin .header .index:active, .public_middle1 .public_record2 .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .public_middle1 .public_record2 .public_recordin .fenlei ul .header .index:active, .fenlei ul .public_middle2 .public_record2 .public_recordin .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .fenlei ul .public_middle2 .public_record2 .public_recordin .header .index:active, .public_middle2 .public_record2 .public_recordin .fenlei ul .header .topbar-down .topbar-middle .index:active, .topbar-down .topbar-middle .public_middle2 .public_record2 .public_recordin .fenlei ul .header .index:active {
+          text-decoration: underline; }
+    .fenlei ul .index {
+      margin-left: 20px; }
+    .fenlei ul .last {
+      width: 180px; }
+
+.wendang {
+  height: 440px;
+  margin-top: 45px; }
+  .wendang .line {
+    height: 25px;
+    margin-top: 0px;
+    border-bottom: 1px solid #c4c4ba; }
+    .wendang .line h2 {
+      float: left;
+      font-size: 18px;
+      margin-left: 10px;
+      color: #3d3d3d; }
+    .wendang .line .more {
+      float: right;
+      color: #836560;
+      margin-top: 7px; 
+      font-size: 14px;}
+      .wendang .line .more:hover {
+        text-decoration: underline; }
+  .wendang ul {
+    height: 190px;
+    margin-top: 55px; }
+    .wendang ul li, .wendang ul .index, .wendang ul .last, .wendang ul .public_middle1 .public_record .public_recordin .header, .public_middle1 .public_record .public_recordin .wendang ul .header, .wendang ul .public_middle2 .public_record .public_recordin .header, .public_middle2 .public_record .public_recordin .wendang ul .header, .wendang ul .public_middle1 .public_record2 .public_recordin .header, .public_middle1 .public_record2 .public_recordin .wendang ul .header, .wendang ul .public_middle2 .public_record2 .public_recordin .header, .public_middle2 .public_record2 .public_recordin .wendang ul .header, .wendang ul .public_middle1 .public_record .public_recordin .last, .public_middle1 .public_record .public_recordin .wendang ul .last, .wendang ul .public_middle2 .public_record .public_recordin .last, .public_middle2 .public_record .public_recordin .wendang ul .last, .wendang ul .public_middle1 .public_record2 .public_recordin .last, .public_middle1 .public_record2 .public_recordin .wendang ul .last, .wendang ul .public_middle2 .public_record2 .public_recordin .last, .public_middle2 .public_record2 .public_recordin .wendang ul .last {
+      display: block;
+      width: 190px;
+      height: 360px;
+      float: left;
+      margin-top: -13px;
+      margin-left: 6px; }
+      .wendang ul li .outline, .wendang ul .index .outline, .wendang ul .last .outline, .wendang ul .public_middle1 .public_record .public_recordin .header .outline, .public_middle1 .public_record .public_recordin .wendang ul .header .outline, .wendang ul .public_middle2 .public_record .public_recordin .header .outline, .public_middle2 .public_record .public_recordin .wendang ul .header .outline, .wendang ul .public_middle1 .public_record2 .public_recordin .header .outline, .public_middle1 .public_record2 .public_recordin .wendang ul .header .outline, .wendang ul .public_middle2 .public_record2 .public_recordin .header .outline, .public_middle2 .public_record2 .public_recordin .wendang ul .header .outline, .wendang ul .public_middle1 .public_record .public_recordin .last .outline, .public_middle1 .public_record .public_recordin .wendang ul .last .outline, .wendang ul .public_middle2 .public_record .public_recordin .last .outline, .public_middle2 .public_record .public_recordin .wendang ul .last .outline, .wendang ul .public_middle1 .public_record2 .public_recordin .last .outline, .public_middle1 .public_record2 .public_recordin .wendang ul .last .outline, .wendang ul .public_middle2 .public_record2 .public_recordin .last .outline, .public_middle2 .public_record2 .public_recordin .wendang ul .last .outline {
+        width: 180px;
+        height: 360px;
+        background-color: white;
+        border: 1px solid #dedede; }
+        .wendang ul li .outline img, .wendang ul .index .outline img, .wendang ul .last .outline img, .wendang ul .public_middle1 .public_record .public_recordin .header .outline img, .public_middle1 .public_record .public_recordin .wendang ul .header .outline img, .wendang ul .public_middle2 .public_record .public_recordin .header .outline img, .public_middle2 .public_record .public_recordin .wendang ul .header .outline img, .wendang ul .public_middle1 .public_record2 .public_recordin .header .outline img, .public_middle1 .public_record2 .public_recordin .wendang ul .header .outline img, .wendang ul .public_middle2 .public_record2 .public_recordin .header .outline img, .public_middle2 .public_record2 .public_recordin .wendang ul .header .outline img, .wendang ul .public_middle1 .public_record .public_recordin .last .outline img, .public_middle1 .public_record .public_recordin .wendang ul .last .outline img, .wendang ul .public_middle2 .public_record .public_recordin .last .outline img, .public_middle2 .public_record .public_recordin .wendang ul .last .outline img, .wendang ul .public_middle1 .public_record2 .public_recordin .last .outline img, .public_middle1 .public_record2 .public_recordin .wendang ul .last .outline img, .wendang ul .public_middle2 .public_record2 .public_recordin .last .outline img, .public_middle2 .public_record2 .public_recordin .wendang ul .last .outline img {
+          width: 166px;
+          height: 233px;
+          -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=0,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=90,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=180,Strength=2)  progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=270,Strength=2) ";
+          filter: "progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=0,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=90,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=180,Strength=2)  progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=270,Strength=2) ";
+          margin-top: 7px;
+          margin-left: 7px;
+          margin-right: 7px; }
+        .wendang ul li .outline a, .wendang ul .index .outline a, .wendang ul .last .outline a, .wendang ul .public_middle1 .public_record .public_recordin .header .outline a, .public_middle1 .public_record .public_recordin .wendang ul .header .outline a, .wendang ul .public_middle2 .public_record .public_recordin .header .outline a, .public_middle2 .public_record .public_recordin .wendang ul .header .outline a, .wendang ul .public_middle1 .public_record2 .public_recordin .header .outline a, .public_middle1 .public_record2 .public_recordin .wendang ul .header .outline a, .wendang ul .public_middle2 .public_record2 .public_recordin .header .outline a, .public_middle2 .public_record2 .public_recordin .wendang ul .header .outline a, .wendang ul .public_middle1 .public_record .public_recordin .last .outline a, .public_middle1 .public_record .public_recordin .wendang ul .last .outline a, .wendang ul .public_middle2 .public_record .public_recordin .last .outline a, .public_middle2 .public_record .public_recordin .wendang ul .last .outline a, .wendang ul .public_middle1 .public_record2 .public_recordin .last .outline a, .public_middle1 .public_record2 .public_recordin .wendang ul .last .outline a, .wendang ul .public_middle2 .public_record2 .public_recordin .last .outline a, .public_middle2 .public_record2 .public_recordin .wendang ul .last .outline a, .wendang ul li .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul li .outline .index, .wendang ul .index .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul .index .outline .index, .wendang ul .last .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul .last .outline .index, .wendang ul .public_middle1 .public_record .public_recordin .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul .public_middle1 .public_record .public_recordin .header .outline .index, .public_middle1 .public_record .public_recordin .wendang ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record .public_recordin .wendang ul .header .outline .index, .wendang ul .public_middle2 .public_record .public_recordin .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul .public_middle2 .public_record .public_recordin .header .outline .index, .public_middle2 .public_record .public_recordin .wendang ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle2 .public_record .public_recordin .wendang ul .header .outline .index, .wendang ul .public_middle1 .public_record2 .public_recordin .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul .public_middle1 .public_record2 .public_recordin .header .outline .index, .public_middle1 .public_record2 .public_recordin .wendang ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 .public_recordin .wendang ul .header .outline .index, .wendang ul .public_middle2 .public_record2 .public_recordin .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .wendang ul .public_middle2 .public_record2 .public_recordin .header .outline .index, .public_middle2 .public_record2 .public_recordin .wendang ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle2 .public_record2 .public_recordin .wendang ul .header .outline .index {
+          font-size: 14px;
+          color: #724743;
+          margin-left: 7px;
+          margin-top: 16px;
+          display: block; }
+        .wendang ul li .outline h4, .wendang ul .index .outline h4, .wendang ul .last .outline h4, .wendang ul .public_middle1 .public_record .public_recordin .header .outline h4, .public_middle1 .public_record .public_recordin .wendang ul .header .outline h4, .wendang ul .public_middle2 .public_record .public_recordin .header .outline h4, .public_middle2 .public_record .public_recordin .wendang ul .header .outline h4, .wendang ul .public_middle1 .public_record2 .public_recordin .header .outline h4, .public_middle1 .public_record2 .public_recordin .wendang ul .header .outline h4, .wendang ul .public_middle2 .public_record2 .public_recordin .header .outline h4, .public_middle2 .public_record2 .public_recordin .wendang ul .header .outline h4, .wendang ul .public_middle1 .public_record .public_recordin .last .outline h4, .public_middle1 .public_record .public_recordin .wendang ul .last .outline h4, .wendang ul .public_middle2 .public_record .public_recordin .last .outline h4, .public_middle2 .public_record .public_recordin .wendang ul .last .outline h4, .wendang ul .public_middle1 .public_record2 .public_recordin .last .outline h4, .public_middle1 .public_record2 .public_recordin .wendang ul .last .outline h4, .wendang ul .public_middle2 .public_record2 .public_recordin .last .outline h4, .public_middle2 .public_record2 .public_recordin .wendang ul .last .outline h4 {
+          font-size: 12px;
+          color: #4d4d4d;
+          margin-top: 6px;
+          margin-left: 7px; }
+        .wendang ul li .outline h1, .wendang ul .index .outline h1, .wendang ul .last .outline h1, .wendang ul .public_middle1 .public_record .public_recordin .header .outline h1, .public_middle1 .public_record .public_recordin .wendang ul .header .outline h1, .wendang ul .public_middle2 .public_record .public_recordin .header .outline h1, .public_middle2 .public_record .public_recordin .wendang ul .header .outline h1, .wendang ul .public_middle1 .public_record2 .public_recordin .header .outline h1, .public_middle1 .public_record2 .public_recordin .wendang ul .header .outline h1, .wendang ul .public_middle2 .public_record2 .public_recordin .header .outline h1, .public_middle2 .public_record2 .public_recordin .wendang ul .header .outline h1, .wendang ul .public_middle1 .public_record .public_recordin .last .outline h1, .public_middle1 .public_record .public_recordin .wendang ul .last .outline h1, .wendang ul .public_middle2 .public_record .public_recordin .last .outline h1, .public_middle2 .public_record .public_recordin .wendang ul .last .outline h1, .wendang ul .public_middle1 .public_record2 .public_recordin .last .outline h1, .public_middle1 .public_record2 .public_recordin .wendang ul .last .outline h1, .wendang ul .public_middle2 .public_record2 .public_recordin .last .outline h1, .public_middle2 .public_record2 .public_recordin .wendang ul .last .outline h1 {
+          font-size: 15px;
+          margin-top: 36px;
+          margin-left: 7px; }
+    .wendang ul .index {
+      margin-left: 5px; }
+    .wendang ul .last {
+      width: 180px; }
+
+.footer {
+  width: 980px;
+  height: 50px;
+  margin: 0 auto 0 auto;
+  margin-top: 48px;
+  border-top: 1px solid #3d3d3d; }
+  .footer .footer_down {
+    font-family: Arial Italic;
+    font-size: 14px;
+    font-style: Italic;
+    margin-top: 10px;
+    height: 20px;
+    color: #a2a2a2;
+    padding-left: 6px; }
+    .footer .footer_down span {
+      font: 14px Arial; }
+    .footer .footer_down .footer_down_left {
+      float: right;
+      margin-right: -2px; }
+      .footer .footer_down .footer_down_left a, .footer .footer_down .footer_down_left .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .footer .footer_down .footer_down_left .index {
+        font-size: 14px;
+        font-style: normal;
+        margin-left: 4px;
+        margin-right: 3px;
+        width: 25px;
+        color: #252525; }
+        .footer .footer_down .footer_down_left a:hover, .footer .footer_down .footer_down_left .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .footer .footer_down .footer_down_left .index:hover {
+          background-color: transparent;
+          color: #72413b;
+          text-decoration: underline; }
+          
+
+.public_middle1, .public_middle2 {
+  width: 980px;
+  height: 288px;
+  margin: 0 auto 0 auto;
+  margin-top: 60px; }
+  .public_middle1 .public_record, .public_middle2 .public_record, .public_middle1 .public_record2, .public_middle2 .public_record2 {
+    width: 305px;
+    height: 288px;
+    margin-top: 0px;
+    float: left;
+    position: relative; }
+    .public_middle1 .public_record .public_recordin, .public_middle2 .public_record .public_recordin, .public_middle1 .public_record2 .public_recordin, .public_middle2 .public_record2 .public_recordin {
+      width: 305px !important;
+      height: 288px !important;
+      background-color: white;
+      -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+      position: relative;
+      z-index: 1; }
+      .public_middle1 .public_record .public_recordin ul, .public_middle2 .public_record .public_recordin ul, .public_middle1 .public_record2 .public_recordin ul, .public_middle2 .public_record2 .public_recordin ul {
+        width: 305px !important;
+        height: 288px !important;
+        background-color: transparent; }
+        .public_middle1 .public_record .public_recordin ul li, .public_middle2 .public_record .public_recordin ul li, .public_middle1 .public_record2 .public_recordin ul li, .public_middle2 .public_record2 .public_recordin ul li {
+          width: 275px !important;
+          height: 16px;
+          padding: 16px 14px 16px 16px !important;
+          border-bottom: 1px solid #dedede;
+          color: #4d4d4d;
+          font-size: 12px !important; }
+          .public_middle1 .public_record .public_recordin ul li .ic, .public_middle2 .public_record .public_recordin ul li .ic, .public_middle1 .public_record2 .public_recordin ul li .ic, .public_middle2 .public_record2 .public_recordin ul li .ic {
+            display: inline-block;
+            width: 16px;
+            height: 16px; }
+          .public_middle1 .public_record .public_recordin ul li .ic-word, .public_middle2 .public_record .public_recordin ul li .ic-word, .public_middle1 .public_record2 .public_recordin ul li .ic-word, .public_middle2 .public_record2 .public_recordin ul li .ic-word {
+            background: url(../image/office.png) no-repeat;
+            background-position: 0px 0px; }
+          .public_middle1 .public_record .public_recordin ul li .ic-pdf, .public_middle2 .public_record .public_recordin ul li .ic-pdf, .public_middle1 .public_record2 .public_recordin ul li .ic-pdf, .public_middle2 .public_record2 .public_recordin ul li .ic-pdf {
+            background: url(../image/office.png) no-repeat;
+            background-position: -32px 0px; }
+          .public_middle1 .public_record .public_recordin ul li .ic-ppt, .public_middle2 .public_record .public_recordin ul li .ic-ppt, .public_middle1 .public_record2 .public_recordin ul li .ic-ppt, .public_middle2 .public_record2 .public_recordin ul li .ic-ppt {
+            background: url(../image/office.png) no-repeat;
+            background-position: -16px 0px; }
+          .public_middle1 .public_record .public_recordin ul li a, .public_middle2 .public_record .public_recordin ul li a, .public_middle1 .public_record2 .public_recordin ul li a, .public_middle2 .public_record2 .public_recordin ul li a {
+            font-size: 14px;
+            position: relative;
+            top: -2px;
+            color: #929292; }
+            .public_middle1 .public_record .public_recordin ul li a:hover, .public_middle2 .public_record .public_recordin ul li a:hover, .public_middle1 .public_record2 .public_recordin ul li a:hover, .public_middle2 .public_record2 .public_recordin ul li a:hover {
+              color: #6e6e6e; }
+      .public_middle1 .public_record .public_recordin .header, .public_middle2 .public_record .public_recordin .header, .public_middle1 .public_record2 .public_recordin .header, .public_middle2 .public_record2 .public_recordin .header {
+        width: 275px;
+        height: 18px;
+        padding: 15px 15px;
+        background-color: transparent; }
+        .public_middle1 .public_record .public_recordin .header h2, .public_middle2 .public_record .public_recordin .header h2, .public_middle1 .public_record2 .public_recordin .header h2, .public_middle2 .public_record2 .public_recordin .header h2 {
+          font-size: 18px !important;
+          display: block;
+          float: left;
+          color: #575757; }
+        .public_middle1 .public_record .public_recordin .header:hover, .public_middle2 .public_record .public_recordin .header:hover, .public_middle1 .public_record2 .public_recordin .header:hover, .public_middle2 .public_record2 .public_recordin .header:hover {
+          background-color: transparent !important; }
+        .public_middle1 .public_record .public_recordin .header a, .public_middle2 .public_record .public_recordin .header a, .public_middle1 .public_record2 .public_recordin .header a, .public_middle2 .public_record2 .public_recordin .header a {
+          ont-size: 12px;
+          display: block;
+          margin-top: 6px;
+          float: right;
+          color: #7c5753 !important; }
+          .public_middle1 .public_record .public_recordin .header a:hover, .public_middle2 .public_record .public_recordin .header a:hover, .public_middle1 .public_record2 .public_recordin .header a:hover, .public_middle2 .public_record2 .public_recordin .header a:hover {
+            text-decoration: underline; }
+        .public_middle1 .public_record .public_recordin .header .last, .public_middle2 .public_record .public_recordin .header .last, .public_middle1 .public_record2 .public_recordin .header .last, .public_middle2 .public_record2 .public_recordin .header .last {
+          border-bottom: none;
+          padding: 15px 14px 19px 16px; }
+    .public_middle1 .public_record .ie_shdow, .public_middle2 .public_record .ie_shdow, .public_middle1 .public_record2 .ie_shdow, .public_middle2 .public_record2 .ie_shdow {
+      width: 305px\9;
+      height: 288px\9;
+      position: absolute;
+      background-color: #ababab \9;
+      filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
+      -ms-filter: "progid:DXImageTransform.Microsoft.Blur(pixelradius=2)";
+      top: -2px;
+      left: -2px; }
+  .public_middle1 .public_record2, .public_middle2 .public_record2 {
+    margin-left: 32px !important; }
+
+.public_middle2 {
+  margin-top: 32px; }
+
+.course-detail-page {
+  height: 1200px;
+  margin-top: 48px; }
+  .course-detail-page .line {
+    height: 28px;
+    margin-top: 0px;
+    border-bottom: 1px solid #c4c4ba; }
+    .course-detail-page .line h2 {
+      float: left;
+      font-size: 20px;
+      margin-left: 6px;
+      color: #3d3d3d; }
+    .course-detail-page .line .more {
+      float: right;
+      color: #836560;
+      margin-top: 7px; }
+      .course-detail-page .line .more:hover {
+        text-decoration: underline; }
+  .course-detail-page ul {
+    height: 358px;
+    width: 980px;
+    margin-top: 32px; }
+    .course-detail-page ul li, .course-detail-page ul .public_middle1 .public_record .public_recordin .header, .public_middle1 .public_record .public_recordin .course-detail-page ul .header, .course-detail-page ul .public_middle2 .public_record .public_recordin .header, .public_middle2 .public_record .public_recordin .course-detail-page ul .header, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .header, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .header, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .header, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .header, .course-detail-page ul .public_middle1 .public_record .public_recordin .last, .public_middle1 .public_record .public_recordin .course-detail-page ul .last, .course-detail-page ul .public_middle2 .public_record .public_recordin .last, .public_middle2 .public_record .public_recordin .course-detail-page ul .last, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .last, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .last, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .last, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .last, .course-detail-page ul .index, .course-detail-page ul .last {
+      display: block;
+      width: 190px;
+      height: 358px;
+      float: left;
+      margin-left: 9px; }
+      .course-detail-page ul li .outline, .course-detail-page ul .public_middle1 .public_record .public_recordin .header .outline, .public_middle1 .public_record .public_recordin .course-detail-page ul .header .outline, .course-detail-page ul .public_middle2 .public_record .public_recordin .header .outline, .public_middle2 .public_record .public_recordin .course-detail-page ul .header .outline, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .header .outline, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .header .outline, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .header .outline, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .header .outline, .course-detail-page ul .public_middle1 .public_record .public_recordin .last .outline, .public_middle1 .public_record .public_recordin .course-detail-page ul .last .outline, .course-detail-page ul .public_middle2 .public_record .public_recordin .last .outline, .public_middle2 .public_record .public_recordin .course-detail-page ul .last .outline, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .last .outline, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .last .outline, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .last .outline, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .last .outline, .course-detail-page ul .index .outline, .course-detail-page ul .last .outline {
+        width: 180px;
+        height: 358px;
+        background-color: white;
+        border: 1px solid #dedede; }
+        .course-detail-page ul li .outline img, .course-detail-page ul .public_middle1 .public_record .public_recordin .header .outline img, .public_middle1 .public_record .public_recordin .course-detail-page ul .header .outline img, .course-detail-page ul .public_middle2 .public_record .public_recordin .header .outline img, .public_middle2 .public_record .public_recordin .course-detail-page ul .header .outline img, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .header .outline img, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .header .outline img, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .header .outline img, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .header .outline img, .course-detail-page ul .public_middle1 .public_record .public_recordin .last .outline img, .public_middle1 .public_record .public_recordin .course-detail-page ul .last .outline img, .course-detail-page ul .public_middle2 .public_record .public_recordin .last .outline img, .public_middle2 .public_record .public_recordin .course-detail-page ul .last .outline img, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .last .outline img, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .last .outline img, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .last .outline img, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .last .outline img, .course-detail-page ul .index .outline img, .course-detail-page ul .last .outline img {
+          width: 166px;
+          height: 233px;
+          -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+          -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=0,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=90,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=180,Strength=2)  progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=270,Strength=2) ";
+          filter: "progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=0,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=90,Strength=2) progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=180,Strength=2)  progid:DXImageTransform.Microsoft.Shadow(color='#ebebeb',Direction=270,Strength=2) ";
+          margin-top: 7px;
+          margin-left: 7px;
+          margin-right: 7px; }
+        .course-detail-page ul li .outline a, .course-detail-page ul .public_middle1 .public_record .public_recordin .header .outline a, .public_middle1 .public_record .public_recordin .course-detail-page ul .header .outline a, .course-detail-page ul .public_middle2 .public_record .public_recordin .header .outline a, .public_middle2 .public_record .public_recordin .course-detail-page ul .header .outline a, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .header .outline a, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .header .outline a, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .header .outline a, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .header .outline a, .course-detail-page ul .public_middle1 .public_record .public_recordin .last .outline a, .public_middle1 .public_record .public_recordin .course-detail-page ul .last .outline a, .course-detail-page ul .public_middle2 .public_record .public_recordin .last .outline a, .public_middle2 .public_record .public_recordin .course-detail-page ul .last .outline a, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .last .outline a, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .last .outline a, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .last .outline a, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .last .outline a, .course-detail-page ul .index .outline a, .course-detail-page ul .last .outline a, .course-detail-page ul li .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .course-detail-page ul li .outline .index, .course-detail-page ul .public_middle1 .public_record .public_recordin .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .course-detail-page ul .public_middle1 .public_record .public_recordin .header .outline .index, .public_middle1 .public_record .public_recordin .course-detail-page ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record .public_recordin .course-detail-page ul .header .outline .index, .course-detail-page ul .public_middle2 .public_record .public_recordin .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .course-detail-page ul .public_middle2 .public_record .public_recordin .header .outline .index, .public_middle2 .public_record .public_recordin .course-detail-page ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle2 .public_record .public_recordin .course-detail-page ul .header .outline .index, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .course-detail-page ul .public_middle1 .public_record2 .public_recordin .header .outline .index, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle1 .public_record2 .public_recordin .course-detail-page ul .header .outline .index, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .course-detail-page ul .public_middle2 .public_record2 .public_recordin .header .outline .index, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .header .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .public_middle2 .public_record2 .public_recordin .course-detail-page ul .header .outline .index, .course-detail-page ul .index .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .course-detail-page ul .index .outline .index, .course-detail-page ul .last .outline .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .course-detail-page ul .last .outline .index {
+          font-size: 14px;
+          color: #724743;
+          margin-left: 7px;
+          margin-top: 16px;
+          display: block; }
+        .course-detail-page ul li .outline h4, .course-detail-page ul .public_middle1 .public_record .public_recordin .header .outline h4, .public_middle1 .public_record .public_recordin .course-detail-page ul .header .outline h4, .course-detail-page ul .public_middle2 .public_record .public_recordin .header .outline h4, .public_middle2 .public_record .public_recordin .course-detail-page ul .header .outline h4, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .header .outline h4, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .header .outline h4, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .header .outline h4, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .header .outline h4, .course-detail-page ul .public_middle1 .public_record .public_recordin .last .outline h4, .public_middle1 .public_record .public_recordin .course-detail-page ul .last .outline h4, .course-detail-page ul .public_middle2 .public_record .public_recordin .last .outline h4, .public_middle2 .public_record .public_recordin .course-detail-page ul .last .outline h4, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .last .outline h4, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .last .outline h4, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .last .outline h4, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .last .outline h4, .course-detail-page ul .index .outline h4, .course-detail-page ul .last .outline h4 {
+          font-size: 12px;
+          color: #4d4d4d;
+          margin-top: 6px;
+          margin-left: 7px; }
+        .course-detail-page ul li .outline h1, .course-detail-page ul .public_middle1 .public_record .public_recordin .header .outline h1, .public_middle1 .public_record .public_recordin .course-detail-page ul .header .outline h1, .course-detail-page ul .public_middle2 .public_record .public_recordin .header .outline h1, .public_middle2 .public_record .public_recordin .course-detail-page ul .header .outline h1, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .header .outline h1, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .header .outline h1, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .header .outline h1, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .header .outline h1, .course-detail-page ul .public_middle1 .public_record .public_recordin .last .outline h1, .public_middle1 .public_record .public_recordin .course-detail-page ul .last .outline h1, .course-detail-page ul .public_middle2 .public_record .public_recordin .last .outline h1, .public_middle2 .public_record .public_recordin .course-detail-page ul .last .outline h1, .course-detail-page ul .public_middle1 .public_record2 .public_recordin .last .outline h1, .public_middle1 .public_record2 .public_recordin .course-detail-page ul .last .outline h1, .course-detail-page ul .public_middle2 .public_record2 .public_recordin .last .outline h1, .public_middle2 .public_record2 .public_recordin .course-detail-page ul .last .outline h1, .course-detail-page ul .index .outline h1, .course-detail-page ul .last .outline h1 {
+          font-size: 15px;
+          margin-top: 36px;
+          margin-left: 7px; }
+    .course-detail-page ul .index {
+      margin-left: 0px; }
+    .course-detail-page ul .last {
+      width: 180px; }
+.go {
+  width: 980px;
+  height: 180px;
+  margin: 0 auto 0 auto; }
+  .go .prestation-go {
+    width: 340px;
+    height: 32px;
+    float: right;
+    margin-top: 65px; }
+    .go .prestation-go li, .go .prestation-go .fenlei ul .index, .fenlei ul .go .prestation-go .index, .go .prestation-go .fenlei ul .last, .fenlei ul .go .prestation-go .last, .go .prestation-go .wendang ul .index, .wendang ul .go .prestation-go .index, .go .prestation-go .wendang ul .last, .wendang ul .go .prestation-go .last, .go .prestation-go .public_middle1 .public_record .public_recordin .header, .public_middle1 .public_record .public_recordin .go .prestation-go .header, .go .prestation-go .public_middle2 .public_record .public_recordin .header, .public_middle2 .public_record .public_recordin .go .prestation-go .header, .go .prestation-go .public_middle1 .public_record2 .public_recordin .header, .public_middle1 .public_record2 .public_recordin .go .prestation-go .header, .go .prestation-go .public_middle2 .public_record2 .public_recordin .header, .public_middle2 .public_record2 .public_recordin .go .prestation-go .header, .go .prestation-go .public_middle1 .public_record .public_recordin .last, .public_middle1 .public_record .public_recordin .go .prestation-go .last, .go .prestation-go .public_middle2 .public_record .public_recordin .last, .public_middle2 .public_record .public_recordin .go .prestation-go .last, .go .prestation-go .public_middle1 .public_record2 .public_recordin .last, .public_middle1 .public_record2 .public_recordin .go .prestation-go .last, .go .prestation-go .public_middle2 .public_record2 .public_recordin .last, .public_middle2 .public_record2 .public_recordin .go .prestation-go .last, .go .prestation-go .course-detail-page ul .index, .course-detail-page ul .go .prestation-go .index, .go .prestation-go .course-detail-page ul .last, .course-detail-page ul .go .prestation-go .last {
+      display: inline-block; }
+    .go .prestation-go a, .go .prestation-go .topbar-down .topbar-middle .index, .topbar-down .topbar-middle .go .prestation-go .index {
+      display: inline-block;
+      border: 1px solid #9a9a9a;
+      color: #9a9a9a;
+      font-size: 16px;
+      padding: 6px 11px;
+      margin-left: 6px; }
+      .go .prestation-go a:hover, .go .prestation-go .topbar-down .topbar-middle .index:hover, .topbar-down .topbar-middle .go .prestation-go .index:hover {
+        background-color: #855a56;
+        color: white;
+        border: 1px solid #855a56; }
+    .go .prestation-go .pre {
+      margin-left: 6px;
+      padding: 6px 7px 6px 7px;
+      border: 1px solid #9a9a9a;
+      display: inline-block; }
+    .go .prestation-go .next {
+      margin-left: 6px;
+      padding: 6px 7px 6px 7px;
+      border: 1px solid #9a9a9a; }
+
+/*文档详情页面*/
+.artical-title{
+  width: 980px;
+  height: 70px;
+  margin: 50px auto 0px auto;
+}
+.artical-title .id{
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  overflow: hidden;
+  background: url(../image/office-icon-28x28.png);
+
+} 
+.id-doc{
+background-repeat: no-repeat;
+background-position: 0px 0px;
+}
+.artical-title span{
+  font-size: 20px;
+  font-style: bold;
+  /*display: inline-block;*/
+  position: relative;
+  top: -2px;
+  left: 10px;
+}
+.artical-title .article-info{
+  margin: 8px 0 0px 0;
+}
+.artical-title .article-info span{
+  font-size: 15px;
+  color: #565656;
+  margin-left: -11px
+}
+#fix-top-bar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  visibility: hidden;
+  /*border-bottom: 1px solid #ddd;*/
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.24);
+  background: linear-gradient(#e1e1dd,#f6f6f4);
+}
+#fix-top-bar .middle{
+  width: 980px;
+  height: 50px;
+  margin: 0px auto;
+}
+#fix-top-bar .middle .im{
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px 0 0 26px;
+  background: url(../image/office-icon-28x28.png);
+}
+#fix-top-bar .middle .line{
+  width: 910px;
+  height: 45px;
+  float: right;
+  margin-top: 0px;
+}
+#fix-top-bar .middle .line span.a-title{
+  font-size: 18px;
+  height: 45px;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+}
+#fix-top-bar .middle .line .page_cur{
+  width: 32px;
+  height: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 3px;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+  line-height: 20px;
+  background-color: #fff;
+  float: left;
+  position: relative;
+  top: -2px;
+  margin-left: 194px;
+  margin-top: 15px;
+}
+#fix-top-bar .middle .line .page_num{
+  font-family: Arial Regular;
+  font-size: 14px;
+  color: #2d2d2d;
+  float: left;
+  margin-top: 18px;
+}
+#fix-top-bar .middle .line .screen{
+  width: 30px;
+  height: 31px;
+  float: right;
+  margin-right: 12px;
+}
+#fix-top-bar .middle .line .screen li{
+  width: 30px;
+  height: 31px;
+  background: url(../image/full-screen.png)no-repeat;
+  cursor: pointer;
+  display: block;
+}
+#fix-top-bar .middle .line .screen li.fullscreen{
+  background-position: 0px 0px;
+}
+#fix-top-bar .middle .line .screen li.fullscreen:hover{
+  background-position: -31px 0px;
+  /*border: 1px solid #000;*/
+}
+.inner{
+  margin: 0px auto;
+  width: 980px;
+  box-shadow: 0 0 4px #333;
+}
+.inner2{
+  margin: 40px auto 0 auto;
+  width: 980px;
+  box-shadow: 0 0 4px #333;
+}
+
+.fix-bottom-bar{
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #ddd;
+  background-image: -moz-linear-gradient( 90deg, rgb(225,225,221) 0%, rgb(246,246,244) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(225,225,221) 0%, rgb(246,246,244) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(225,225,221) 0%, rgb(246,246,244) 100%);
+  box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.24);
+  z-index: 2;
+}
+.fix-bottom-bar .middle{
+  width: 980px;
+  height: 50px;
+  margin: 0px auto;
+}
+.fix-bottom-bar .middle ul.content{
+  width: 212px;
+  height: 28px;
+  color: #7d7d7d;
+  margin-top: 12px;
+  float: left;
+}
+.fix-bottom-bar .middle ul.content .sharetilte{
+  font-size: 16px;
+  height: 28px;
+  line-height: 28px;
+  float: left;
+}
+.fix-bottom-bar .middle .content a{
+  width: 28px;
+  height: 28px;
+  margin-left: 9px;
+  display: inline-block;
+  float: left;
+ /* margin-top: 1px;*/
+  background: url(../image/shejiao.png)no-repeat;
+}
+.fix-bottom-bar .middle .content a.Qzone{
+  background-position: 0px 0px;
+}
+.fix-bottom-bar .middle .content a.Qzone:hover{
+  background-position: 0px -28px;
+}
+.fix-bottom-bar .middle .content a.wechat{
+  background-position: -28px 0px;
+}
+.fix-bottom-bar .middle .content a.wechat:hover{
+  background-position: -28px -28px;
+}
+.fix-bottom-bar .middle .content a.renren{
+  background-position: -56px 0px;
+}
+.fix-bottom-bar .middle .content a.renren:hover{
+  background-position: -56px -28px;
+}
+.fix-bottom-bar .middle .content a.sina{
+  background-position: -84px 0px;
+}
+.fix-bottom-bar .middle .content a.sina:hover{
+  background-position: -84px -28px;
+}
+.fix-bottom-bar .middle .collect{
+  width: 78px;
+  height: 28px;
+  margin-top: 10px;
+  margin-left: 130px;
+  float:left;
+  overflow: hidden;
+}
+.fix-bottom-bar .middle .collect a{
+  width: 78px;
+  height: 28px;
+  /*padding: 6px 0px;*/
+  display: block;
+  background: url(../image/collect.png)no-repeat;
+  background-position: 0px 6px;
+}
+.fix-bottom-bar .middle .collect a:active{
+  background: url(../image/has-collect.png)no-repeat;
+  background-position: 0px 6px;
+}
+ .free-print{
+  float: left;
+  width: 195px;
+  height: 27px;
+  margin-top: 12px;
+  margin-left: 100px;
+}
+ .free-print a{
+  width: 76px;
+  height: 27px;
+  display: block;
+  float: left;
+  background: url(../image/free-print.png);
+}
+.free-print a:hover{
+  background: url(../image/free-print-hover.png)no-repeat;
+}
+.free-print span.free-print-price{
+   width: 85px;
+   height: 28px;
+   font-size: 14px;
+   line-height: 28px;
+   color: #757575;
+   float: left;
+   margin-top: 0px;
+   /*padding-left: 20px;*/
+   margin-left: 14px;
+}
+.free-print span.free-print-price .print-price{
+  width: 23px;
+  height: 16px;
+  display: inline-block;
+  background: url(../image/money.png)no-repeat;
+ vertical-align: middle;
+  margin-right: 5px;
+}
+.free-download{
+  float: left;
+  width: 195px;
+  height: 27px;
+  margin-top: 12px;
+  margin-left: 70px;
+}
+.free-download a{
+  width: 67px;
+  height: 27px;
+  display: block;
+  float: left;
+  background: url(../image/download.png);
+}
+.free-download a:hover{
+  background: url(../image/download-hover.png)no-repeat;
+}
+.free-download span.free-download-price{
+   width: 85px;
+   height: 28px;
+   font-size: 14px;
+   line-height: 28px;
+   color: #757575;
+   float: left;
+   margin-top: 0px;
+   /*padding-left: 20px;*/
+   margin-left: 14px;
+}
+.free-download span.free-download-price .download-price{
+  width: 23px;
+  height: 16px;
+  display: inline-block;
+  background: url(../image/money.png)no-repeat;
+ vertical-align: middle;
+  margin-right: 5px;
+}
+    
+
+/*专业课开始*/
+.professional-middle{
+  width: 870px;
+  height: 1048px;
+  margin: 80px auto auto auto;
+  position: relative;
+}
+
+.major-list li{
+  width:150px;
+  height:150px;
+  margin-right:30px;
+  margin-bottom:30px;
+  float:left;
+  position:relative;
+}
+#dq,#computer-science,#Environmental-science{
+  width: 330px;
+  height: 330px;
+}
+#wuguan,#yingyongqixiang,#dain-zi-xin-xi,#Media-and-art{
+   width: 330px;
+   height: 150px;
+}
+#yaogang,#shuiwen,#xinxikongzhi,#jinjigaungli,#shuxuetongji,#ma-ke-si-zhu-yi,#gon-gong-guan-li,#yu-yang-wen-hua,#Marine-science,#Atmospheric-physics{
+   width: 150px;
+   height: 150px;
+}
+
+#yaogang,#yingyongqixiang,#shuxuetongji,#gon-gong-guan-li{
+   margin-right:0px;
+   margin-bottom:30px;
+}
+#yu-yang-wen-hua,#Atmospheric-physics{
+  position: relative;
+  top: -180px;
+}
+#Environmental-science{
+  position: relative;
+  top: -180px;
+  left: 540px;
+}
+#dain-zi-xin-xi,#Marine-science{
+  position: relative;
+  left:-180px;
+}
+#Media-and-art{
+  position: relative;
+  left:-360px;
+}
+.front-face{
+  z-index:2;
+  background:url(../image/professional-form-bg.png) no-repeat 0 0;
+}
+.back-face{
+  z-index:1;
+  background:url(../image/professional-back-bg.png) no-repeat 0 0;
+}
+.major-list li a, .major-list li a span{
+  width:100%;
+  height:100%;
+  display:block;
+  position:absolute;
+  left:0;
+  top:0
+}
+.major-list li a{
+  overflow:hidden;
+}
+.major-list li:hover a .back-face{z-index:3;}
+#dq .front-face, #dq .back-face{
+  background-position:0 0;
+}
+#wuguan .front-face, #wuguan .back-face{
+  background-position:-360px 0;
+}
+#yaogang .front-face, #yaogang .back-face{
+  background-position:-720px 0;
+}
+#shuiwen .front-face, #shuiwen .back-face{
+  background-position:-360px -180px;
+}
+#yingyongqixiang .front-face, #yingyongqixiang .back-face{
+  background-position:-540px -180px;
+}
+#xinxikongzhi .front-face, #xinxikongzhi .back-face{
+  background-position: 0px -360px;
+}
+#computer-science .front-face, #computer-science .back-face{
+  background-position:-180px -360px;
+}
+#jinjigaungli .front-face, #jinjigaungli .back-face{
+  background-position:-540px -360px;
+}
+#shuxuetongji .front-face, #shuxuetongji .back-face{
+  background-position:-720px -360px;
+}
+#ma-ke-si-zhu-yi .front-face, #ma-ke-si-zhu-yi .back-face{
+  background-position: -540px -540px;
+}
+#gon-gong-guan-li .front-face, #gon-gong-guan-li .back-face{
+  background-position:-720px -540px;
+}
+#yu-yang-wen-hua .front-face, #yu-yang-wen-hua .back-face{
+  background-position:0px -540px;
+}
+#dain-zi-xin-xi .front-face, #dain-zi-xin-xi .back-face{
+  background-position:0px -720px;
+}
+#Marine-science .front-face, #Marine-science .back-face{
+  background-position:-360px -720px;
+}
+#Environmental-science .front-face, #Environmental-science .back-face{
+  background-position:-540px -720px;
+}
+#Media-and-art .front-face, #Media-and-art .back-face{
+  background-position: 0px -900px;
+}
+#Atmospheric-physics .front-face, #Atmospheric-physics .back-face{
+  background-position: -360px -900px;
+}

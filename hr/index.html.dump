@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>多火工作室招新</title>
+    <link href="css/fashionfoucs_lrtk.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.plugin.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- 代码 开始 -->
+    <div id="banner">
+        <ul id="banner_img">
+            <li class="item1">
+                <div class="wrapper">
+                    <div class="ad_txt">
+                        <h2>前端开发</h2>
+                        <p>
+                            熟悉HTML、CSS等开发语言<br />
+                            喜欢探索新鲜有趣的技术<br />
+                            了解JavaScript者优先考虑<br />有开发经验，重构过页面者优先考虑<br />
+                        </p>
+                        <a href="#" target="_blank">了解详细&gt;</a>
+                    </div>
+                    <div class="ad_img">
+                        <img src="images/20120905092323647.png" width="574" height="404" alt="前端工程师"/>
+                    </div>
+                </div>
+            </li>
+            <li class="item2">
+                <div class="wrapper">
+                    <div class="ad_txt">
+                        <h2>后端开发</h2>
+                        <p>
+                        </p>
+                        <a href="#" target="_blank">了解详细&gt;</a>
+                    </div>
+                    <div class="ad_img">
+                        <img src="images/20120830015430148.png" width="506" height="404" alt="Web应用(B/S)定制开发" />
+                    </div>
+                </div>
+            </li>
+            <li class="item3">
+                <div class="wrapper">
+                    <div class="ad_txt">
+                        <h2>视觉设计</h2>
+                        <p>
+                            对美有感觉且有敏锐的洞察力<br />
+                            创意<br />
+                            一点点完美主义<br />熟练适用PS、Illustrator、Lightroom其中任意一样<br />
+                        </p>
+                        <a href="#" target="_blank">了解详细&gt;</a>
+                    </div>
+                    <div class="ad_img">
+                        <img src="images/20120830015446637.png" width="506" height="404" alt="视觉设计" />
+                    </div>
+                </div>
+            </li>
+            <li class="item4">
+                <div class="wrapper">
+                    <div class="ad_txt">
+                        <h2>服务器运维</h2>
+                        <p>
+
+                        </p>
+                        <a href="#" target="_blank">了解详细&gt;</a>
+                    </div>
+                    <div class="ad_img">
+                        <img src="images/20120830015615324.png" width="506" height="404" alt="服务器运维" />
+                    </div>
+                </div>
+            </li>
+            <li class="item5">
+                <div class="wrapper">
+                    <div class="ad_txt">
+                        <h2>移动开发</h2>
+                        <p>
+                            热衷于移动互联网行业，对其有浓厚兴趣<br />
+                            有良好的团队合作精神和较强的解决问题能力，具有良好的语言表达与沟通能力<br />
+                            了解Android或iOS平台开发或对其有浓厚兴趣<br />
+                            有Android或iOS实际开发经验者优先考虑;<br />
+                        </p>
+                        <a href="#" target="_blank">了解详细&gt;</a>
+                    </div>
+                    <div class="ad_img">
+                        <img src="images/20120830015631560.png" width="506" height="404" alt="移动开发工程师" />
+                    </div>
+                </div>
+            </li>
+            <li class="item6">
+                <div class="wrapper">
+                    <div class="ad_txt">
+                        <h2>算法学术</h2>
+                        <p>
+                            
+                        </p>
+                        <a href="#" target="_blank">了解详细&gt;</a>
+                    </div>
+                    <div class="ad_img">
+                        <img src="images/20120830015651273.png" width="506" height="404" alt="算法学术" />
+                    </div>
+                </div>
+            </li>
+            <li class="item7">
+                <div class="wrapper">
+                    <div class="ad_txt">
+                        <h2>项目经理</h2>
+                        <p>
+                            具有较强的责任感<br />  
+                            有良好的团队合作精神和较强的解决问题能力<br />  具有良好的语言表达与沟通能力<br />   对互联网有一定的兴趣和了解，了解基本的互联网开发流<br />  
+                        </p>
+                        <a href="#" target="_blank">了解详细&gt;</a>
+                    </div>
+                    <div class="ad_img">
+                        <img src="images/20120830015711808.png" width="506" height="404" alt="项目经理" />
+                    </div>
+                </div>
+            </li>
+            <li class="item8">
+                <div class="wrapper">
+                    <div class="ad_txt">
+                        <h2>实验室</h2>
+                        <p>
+                            互联网改变世界，我们改变互联网。<br />
+                            精彩前沿技术演练场。<br />
+                        </p>
+                        <a href="#" target="_blank">了解详细&gt;</a>
+                    </div>
+                    <div class="ad_img">
+                        <img src="images/20120830015726137.png" width="506" height="404" alt="实验室" />
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div id="banner_ctr">
+            <div id="drag_ctr"></div>
+            <ul>
+                <li class="first-item">网站建设</li>
+                <li>前端开发</li>
+                <li>后端开发</li>
+                <li>视觉设计</li>
+                <li>服务器运维</li>
+                <li>移动开发</li>
+                <li>算法学术</li>
+                <li>项目经理</li>
+                <li>实验室</li>
+                <li class="last-item">网站设计</li>
+            </ul>
+            <div id="drag_arrow"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/fashionfoucs.js"></script>
+    <!-- 代码 结束 -->
+</body>
+</html>

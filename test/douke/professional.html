@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>豆壳网</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/lrtk.css">
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    
+</head>
+<body>
+		<div class="header">
+		<div class="top">
+		    <a href="index.html"><img src="image/logo.png" alt="" class="logo"></a>
+            <!-- 搜索开始 -->
+            <div class="search" >
+                <form action="#" method="post"> 
+            	    <input type="text" class="search_input" placeholder="搜索你想要的文档">
+                	<input type="submit" class="search_button" value="">
+            	</form>
+            </div>
+            <!-- 搜索结束 -->
+            <div class="upload_file">
+            	<a href="#">上传资料</a>
+            </div>
+            <div class="free_print">
+            	<a href="#">免费打印</a>
+            </div> 
+            
+		</div>
+	</div>
+	<div class="topbar-down">
+		<div class="topbar-middle">
+		    <a href="index.html"  class="index">首页</a>
+    		<a href="public.html">公共课</a>
+    		<a href="professional.html">专业课</a>
+    		<!-- 登录注册 -->
+    		<div class="left">
+    		    <a href="#" class="login" data-toggle="modal" data-target="#login">登录</a>
+                <img src="image/line.png">
+                <a href="#" class="signup" data-toggle="modal" data-target="#register">注册</a>
+    	    </div>
+    	</div>
+	</div>
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <form action="#" method="get">
+                    <div class="modal-body">
+                        <div class="input-group-text">
+                                 <!-- <span class="input-group-addon">邮箱</span> -->
+                            <input type="text" class="form-control-text" placeholder="用户名/邮箱">
+                        </div> 
+                        <div class="input-group-password">
+                                <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="form-control-password" placeholder="密码">
+                            <a  class="un-sign-in" data-toggle="modal" data-target="#register">还未注册账号</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+                        <button type="button" class="button-login"></button>
+                    </div>
+                </form>
+                    <!-- <hr /> -->
+                    <!-- <p id = 'otherlogin'>
+                        或通过以下方式登录
+                    </p>
+                    <div class = 'otherloginbutton'>
+                        <a href="#"><img src="image/sinalogin.png" alt="新浪微博" /></a>
+                        <a href=""><img src="image/rrlogin.png" alt="人人" /></a>
+                    </div> -->
+                   <!--  <div>
+                    </div> -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <form action="#" method="get">
+                    <div class="modal-body">
+                        <div class="input-group-text">
+                                     <!-- <span class="input-group-addon">邮箱</span> -->
+                            <input type="text" class="form-control-text" placeholder="邮箱注册">
+                        </div> 
+                        <div class="input-group-password">
+                                    <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="form-control-password" placeholder="输入初始密码">
+                                <!-- <a  class="un-sign-in" href="#">还未注册账号</a> -->
+                        </div>
+                        <div class="re-input-group-password">
+                                    <!--  <span class="input-group-addon">密码</span> -->
+                            <input type="password" class="re-form-control-password" placeholder="重复输入密码">
+                                <!-- <a  class="un-sign-in" href="#">还未注册账号</a> -->
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+                            <button type="button" class="button-signin"></button>
+                        </div>
+                </form>
+                        <!-- <hr /> -->
+                        <!-- <p id = 'otherlogin'>
+                            或通过以下方式登录
+                        </p>
+                        <div class = 'otherloginbutton'>
+                            <a href="#"><img src="image/sinalogin.png" alt="新浪微博" /></a>
+                            <a href=""><img src="image/rrlogin.png" alt="人人" /></a>
+                        </div> -->
+                       <!--  <div>
+                        </div> -->
+            </div>
+                <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <div class="professional-middle">
+    	<ul class="major-list">
+    		<li class="major-item" id="dq">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="wuguan">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="yaogang">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+             <li class="major-item" id="shuiwen">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="yingyongqixiang">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="xinxikongzhi">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="computer-science">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="jinjigaungli">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="shuxuetongji">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="ma-ke-si-zhu-yi">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="gon-gong-guan-li">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="yu-yang-wen-hua">
+                <a href="#" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="dain-zi-xin-xi">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="Marine-science">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="Environmental-science">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="Media-and-art">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+            <li class="major-item" id="Atmospheric-physics">
+                <a href="college.html" target="_blank">
+                    <span class="txt-hide front-face"></span>
+                    <span class="back-face"></span>
+                </a>
+            </li>
+    	</ul>
+    </div>
+    <script type="text/javascript" src="js/public.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <div class="footer"style="margin-top: 110px;">
+        <div class="footer_down"style="float:left;margin-top: -92px;width:980px">
+            Copyright <span>©</span>2014-2015 douke.wang  all rights reserved
+            <div class="footer_down_left">
+                <a href="#" >关于豆壳</a>
+                <img src="image/line.png" >
+                <a href="#" >联系我们</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

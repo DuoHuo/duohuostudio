@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html { color: #000; background: #FFF; }
+body, div, ul, li { margin: 0; padding: 0; }
+img { border: 0; }
+li { list-style: none; }
+body { font-family: Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif; font-size: 12px; color: #666; background: #fff; }
+a { color: #39f; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+.wrapper { width: 986px; margin: 0 auto; position: relative; }
+#banner { width: 100%; height: 650px; background: #000; overflow: hidden; position: relative; }
+#banner_img { display: block; position: relative; }
+    #banner_img li { position: absolute; top: 0; left: 0; width: 100%; height: 650px; background-position: center; background-size: cover; display: none; }
+        /*设置背景图片-------开始*/
+        #banner_img li.item1 { background-image: url(../images/banner_bg1.jpg); display: block; }
+        #banner_img li.item2 { background-image: url(../images/banner_bg2.jpg); }
+        #banner_img li.item3 { background-image: url(../images/banner_bg3.jpg); }
+        #banner_img li.item4 { background-image: url(../images/banner_bg4.jpg); }
+        #banner_img li.item5 { background-image: url(../images/banner_bg5.jpg); }
+        #banner_img li.item6 { background-image: url(../images/banner_bg6.jpg); }
+        #banner_img li.item7 { background-image: url(../images/banner_bg7.jpg); }
+        #banner_img li.item8 { background-image: url(../images/banner_bg8.jpg); }
+    /*设置背景图片--------结束*/
+    #banner_img .ad_img { position: absolute; right: 10px; top: 80px; width: 506px; height: 404px; }
+    #banner_img .ad_txt { position: absolute; left: 10px; top: 170px; color: #fff; text-shadow: 1px 1px rgba(51,51,51,0.3); }
+        #banner_img .ad_txt h2 { font: bold 36px/60px Microsoft YaHei; }
+        #banner_img .ad_txt a { display: block; width: 100px; height: 25px; line-height: 25px; text-align: center; margin-top: 10px; background: #fff; color: #666; text-decoration: none; text-shadow: none; border-radius: 1em;}
+#banner_ctr { position: absolute; width: 960px; height: 122px; margin-left: -480px; left: 50%; bottom: 40px; z-index: 1; }
+    #banner_ctr ul { width: 960px; height: 122px; background: url(../images/serv_ico.png) center no-repeat; font-size: 0; line-height: 0; position: relative; }
+    #banner_ctr li { display: block; float: left; width: 115px; height: 122px; cursor: pointer; }
+        #banner_ctr li.first-item { background: #fff; width: 20px; -webkit-border-radius: 20px 0 0 20px; -moz-border-radius: 20px 0 0 20px; border-radius: 20px 0 0 20px; cursor: default; }
+        #banner_ctr li.last-item { background: #fff; width: 20px; -webkit-border-radius: 0 20px 20px 0; -moz-border-radius: 0 20px 20px 0; border-radius: 0 20px 20px 0; cursor: default; }
+#drag_ctr { position: absolute; top: -14px; left: 20px; width: 115px; height: 156px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; bottom: 170px; background: #0084cf; }
+#drag_arrow { position: absolute; top: -14px; left: 20px; width: 115px; height: 156px; background: url(../images/drag_banner_arrow.gif) center 14px no-repeat; }

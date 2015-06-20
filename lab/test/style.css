@@ -1,0 +1,54 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, body, .wrap-page {
+  height: 100%;
+  margin: 0;
+}
+.wrap-page {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+}
+.fixed-top {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 960;
+}
+
+.fixed-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 940;
+}
+
+.des {
+  font-size: 30px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  width: 100%;
+}
+
+.equal {
+  background-color: #80e8cc;
+}
+
+.learn {
+  background-color: #f66930;
+}
+
+.share {
+  background-color: #00a8db;
+}
+
+.create {
+  background-color: #ff60af;
+}

@@ -1,0 +1,28 @@
+
+.focus{ margin: 40px auto auto auto; width:980px; height:290px; background-color:transparent;}  
+/*.focus img{ width: 980px; height: 290px;} */
+/*.focus .shadow .title{width: 260px; height: 65px;padding-left: 30px;padding-top: 20px;}
+.focus .shadow .title a{ text-decoration:none; color:#fff; font-size:14px; font-weight:bolder; overflow:hidden; }
+.focus .btn{ position:absolute; bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus .btn a{position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }  
+.focus .btn a:hover,.focus .btn a.current{  cursor:pointer;background:#fc114a;}  */
+/*.focus .fPic{ position:absolute; left:0px; top:0px; }  
+*/
+/*.focus .D1fBt{ overflow:hidden; zoom:1;  height:16px; z-index:10; position: relative; }  
+*/
+/*.focus .shadow{ width:100%; position:absolute; bottom:0; left:0px; z-index:10; height:80px; line-height: 80px; background:rgba(0,0,0,0.6);   */ 
+filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;  display:block;  text-align:left; }  
+./*focus .shadow a{ text-decoration:none; color:#fff; font-size:20px; overflow:hidden; margin-left:10px; font-family: "\5FAE\8F6F\96C5\9ED1";} */ 
+/*.focus .fcon{ position:relative; width:100%; float:left;  display:none; background:#000  }  */
+.focus .fcon img{ display:block; }  
+.focus .fbg{top:-36px; right:-450px; position:relative; height:21px; text-align:center; z-index: 200;width: 88px;height: 21px; }  
+.focus .fbg div{margin:4px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus .D1fBt a{position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }    
+.focus .D1fBt .current,.focus .D1fBt a:hover{background:#464646;}    
+.focus .D1fBt img{display:none;width:980px; height:290px;}    
+.focus .D1fBt i{display:none; font-style:normal; }    
+.focus .prev,.focus .next{position:relative;width:54px;height:53px;background: url(../image/arrow.png) no-repeat;}
+.focus .prev{float: left;margin: -200px auto auto auto; background-position:0 -53px; cursor:pointer; }  
+.focus .next{/*top: 50%;*/margin: -200px auto auto auto; /*left: 470px;*/ background-position:-54px -53px; float: right; cursor:pointer;}  
+.focus .prev:hover{  background-position:0 0; }  
+.focus .next:hover{  background-position:-54px 0;}  
