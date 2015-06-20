@@ -1,4 +1,4 @@
-homepage
+多火工作室主页
 ========
 
-Duohuo homepage
+![](./img/home.png)
